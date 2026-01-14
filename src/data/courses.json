@@ -1,0 +1,9423 @@
+[
+  {
+    "code": "GE 101",
+    "name": "General Education I",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Snehal Kashikar(I)",
+      "Paridhi Bhandari(I)",
+      "Suman Choudhury(I)",
+      "Eline Groeneweg-Bhatt(I)",
+      "Argha Manna(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "P1,P2"
+        },
+        {
+          "raw": "(Central Arcade,Jagdish Patel Learning Theatre)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MA 104 (E)",
+    "name": "Ordinary Differential Equations (first half)",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Sudeshna Roy(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1,E2"
+        },
+        {
+          "raw": "(Jasubhai Auditorium)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "H2"
+        },
+        {
+          "raw": "(7/101,7/210,7/103,7/104,7/105,7/201,7/204)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "MA 104 (H)",
+    "name": "Ordinary Differential Equations (first half)",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Mamta Balodi(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1,E2"
+        },
+        {
+          "raw": "(Jagdish Patel Learning Theatre)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "H2"
+        },
+        {
+          "raw": "(7/205,7/206,7/207)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 113 (E)",
+    "name": "Data-Centric Computing",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 1.5,
+      "C": 3.0
+    },
+    "instructors": [
+      "Anup Kalbalia(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1"
+        },
+        {
+          "raw": "(Jasubhai Auditorium)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "N1"
+        },
+        {
+          "raw": "(10/104,10/105,10/203,10/204)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ES 113 (H)",
+    "name": "Data-Centric Computing",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 1.5,
+      "C": 3.0
+    },
+    "instructors": [
+      "Anup Kalbalia(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D2"
+        },
+        {
+          "raw": "(Jasubhai Auditorium)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "L1"
+        },
+        {
+          "raw": "(10/104,10/105)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ES 119 (E)",
+    "name": "Principles of Artificial Intelligence",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 3.0
+    },
+    "instructors": [
+      "Manisha Padala(I)",
+      "Nirmal Sancheti(I)",
+      "Nipun Batra(I)",
+      "Bireswar Das(L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,A1"
+        },
+        {
+          "raw": "(Jasubhai Auditorium)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "J1,L1"
+        },
+        {
+          "raw": "(10/103,10/104,Harsha Patel Learning Theatre)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ES 119 (H)",
+    "name": "Principles of Artificial Intelligence",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 3.0
+    },
+    "instructors": [
+      "Manisha Padala(I)",
+      "Nirmal Sancheti(I)",
+      "Nipun Batra(I)",
+      "Bireswar Das(L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "C1,A2"
+        },
+        {
+          "raw": "(Jayshree S Sheth Learning Theatre)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 114 (E)",
+    "name": "Probability, Statistics, and Data Visualization",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 1.5,
+      "C": 3.0
+    },
+    "instructors": [
+      "Mayank Singh(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "C1"
+        },
+        {
+          "raw": "(Jasubhai Auditorium)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "K2"
+        },
+        {
+          "raw": "(10/104,Jasubhai Auditorium)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ES 114 (H)",
+    "name": "Probability, Statistics, and Data Visualization",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 1.5,
+      "C": 3.0
+    },
+    "instructors": [
+      "Mayank Singh(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1"
+        },
+        {
+          "raw": "(11/102)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "L2"
+        },
+        {
+          "raw": "(10/104,10/105)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ES 116 (E)",
+    "name": "Principles and Applications of Electrical Engineering",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 1.5,
+      "C": 5.0
+    },
+    "instructors": [
+      "Tarun Agrawal(I+T+L)",
+      "Dinesh Sharma(T+L)",
+      "Ragavan K(T)",
+      "S Rajendran(T+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(Jasubhai Auditorium)"
+        }
+      ],
+      "tutorial": [
+        {
+          "slots": [
+            "N2"
+          ],
+          "room": "7/101,7/103,7/106,7/107,7/109,7/110,7/202,7/204,7/206,7/207"
+        }
+      ],
+      "lab": [
+        {
+          "raw": "I1,J2,M1,L2,M2"
+        },
+        {
+          "raw": "(EE Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ES 116 (H)",
+    "name": "Principles and Applications of Electrical Engineering",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 1.5,
+      "C": 5.0
+    },
+    "instructors": [
+      "Dinesh Sharma(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(10/103)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 117 (E)",
+    "name": "The World of Engineering",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Udit Bhatia(L)",
+      "Himanshu Shekhar(L)"
+    ],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "K1,H1"
+        },
+        {
+          "raw": "(Jasubhai Auditorium)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ES 117 (H)",
+    "name": "The World of Engineering",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Udit Bhatia(L)",
+      "Himanshu Shekhar(L)"
+    ],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "K1,H1"
+        },
+        {
+          "raw": "(Harsha Patel Learning Theatre)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CE 202",
+    "name": "Sustainability and Environment",
+    "credits": {
+      "L": 1.0,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 3.0
+    },
+    "instructors": [
+      "Abhishek Singhal(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "B1"
+        },
+        {
+          "raw": "(7/109)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "B2,I2"
+        },
+        {
+          "raw": "(7/109)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CS 203",
+    "name": "Software Tools & Techniques for AI",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Nipun Batra(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I2"
+        },
+        {
+          "raw": "(10/103)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "B1,B2"
+        },
+        {
+          "raw": "(10/105,Jasubhai Auditorium)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ES 211",
+    "name": "Thermodynamics",
+    "credits": {
+      "L": 2.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 3.0
+    },
+    "instructors": [
+      "Atul Bhargav(I)",
+      "Abinaya Sampath(T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "B1,B2"
+        },
+        {
+          "raw": "(10/103)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "I2"
+        },
+        {
+          "raw": "(Jagdish Patel Learning Theatre,7/106,7/107)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 214",
+    "name": "Discrete Mathematics",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Jyothi Krishnan(I+T)",
+      "Balagopal (T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "B1,B2"
+        },
+        {
+          "raw": "(Jayshree S Sheth Learning Theatre)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "I2"
+        },
+        {
+          "raw": "(Surendra C Sheth Learning Theatre,7/201)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "EE 225",
+    "name": "Unveiling the Semiconductor World",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Nihar Mohapatra(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D2"
+        },
+        {
+          "raw": "(Jagdish Patel Learning Theatre)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EE 226",
+    "name": "Semiconductor Devices",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sandip Lashkare(I+T)",
+      "Nihar Mohapatra(T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "B1,B2"
+        },
+        {
+          "raw": "(Jagdish Patel Learning Theatre)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "I2"
+        },
+        {
+          "raw": "(Jayshree S Sheth Learning Theatre,7/209)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 192",
+    "name": "Introduction to writing II",
+    "credits": {
+      "L": 1.0,
+      "T": 3.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Jooyoung Kim(I+T)"
+    ],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [
+        {
+          "raw": "F1,F2"
+        },
+        {
+          "raw": "(Jasubhai Auditorium) - Quads 1,2 only"
+        },
+        {
+          "raw": "(7/101,7/102,7/103,7/104,7/201,7/207,7/208,7/209,11/101)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "MSE 207",
+    "name": "Structure of Materials",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Anagh Bhaumik(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "B1,B2"
+        },
+        {
+          "raw": "(7/210)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "I2"
+        },
+        {
+          "raw": "(7/101)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "PE 102",
+    "name": "Physical Education",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 0.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "IN 102",
+    "name": "Comprehensive Viva Voce",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 0.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CS 201",
+    "name": "Theory of Computing",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Bireswar Das(I+T)",
+      "Balagopal (T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "C1,C2"
+        },
+        {
+          "raw": "(Jagdish Patel Learning Theatre)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "H2"
+        },
+        {
+          "raw": "(Jagdish Patel Learning Theatre,11/101)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "PH 201",
+    "name": "Introduction to Electrodynamics",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Rusa Mandal(I+T)",
+      "Abhisek Samanta(T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "P1,P2"
+        },
+        {
+          "raw": "(Surendra C Sheth Learning Theatre)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "B2"
+        },
+        {
+          "raw": "(7/208,7/209)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "PH 203",
+    "name": "Solid State Physics",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Chandan Kumar Mishra(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1,E2"
+        },
+        {
+          "raw": "(Surendra C Sheth Learning Theatre)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "H1"
+        },
+        {
+          "raw": "(7/203)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "CL 202",
+    "name": "Chemical Engineering Thermodynamics",
+    "credits": {
+      "L": 2.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 3.0
+    },
+    "instructors": [
+      "Pratyush Dayal(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(7/108)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(7/108)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "CS 203",
+    "name": "Software Tools & Techniques for AI",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Nipun Batra(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I2"
+        },
+        {
+          "raw": "(10/103)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "B1,B2"
+        },
+        {
+          "raw": "(10/105,Jasubhai Auditorium)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CL 203",
+    "name": "Process Fluid Mechanics",
+    "credits": {
+      "L": 2.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 3.0
+    },
+    "instructors": [
+      "Abinaya Sampath(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "A1,H2"
+        },
+        {
+          "raw": "(Harsha Patel Learning Theatre)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "C1"
+        },
+        {
+          "raw": "(Harsha Patel Learning Theatre)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "CL 204",
+    "name": "Heat Transfer",
+    "credits": {
+      "L": 2.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 3.0
+    },
+    "instructors": [
+      "Biswajit Saha(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(10/102)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(10/102)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "MA 203",
+    "name": "Numerical Methods (second half)",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Abhinav Jha(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "F1,F2"
+        },
+        {
+          "raw": "(Jasubhai Auditorium)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "L2"
+        },
+        {
+          "raw": "(7/101,7/210,7/103,7/104,7/105,7/201,7/204,7/205,7/202,7/203)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "MA 204",
+    "name": "Introduction to Partial Differential Equations (second half)",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Jagmohan Tyagi(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(7/106)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "A1"
+        },
+        {
+          "raw": "(7/207)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "CL 205",
+    "name": "Chemical Reaction Engineering - I",
+    "credits": {
+      "L": 2.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 3.0
+    },
+    "instructors": [
+      "Kabeer Jasuja(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I1,J2"
+        },
+        {
+          "raw": "(Harsha Patel Learning Theatre)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "I1,J2"
+        },
+        {
+          "raw": "(Harsha Patel Learning Theatre)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ME 209",
+    "name": "Principles of Manufacturing Processes",
+    "credits": {
+      "L": 2.0,
+      "T": 0.0,
+      "P": 1.5,
+      "C": 3.0
+    },
+    "instructors": [
+      "Rakesh Singhai(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(7/209)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "A2"
+        },
+        {
+          "raw": "(7/209)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 211",
+    "name": "Thermodynamics",
+    "credits": {
+      "L": 2.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 3.0
+    },
+    "instructors": [
+      "Atul Bhargav(I)",
+      "Abinaya Sampath(T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "B1,B2"
+        },
+        {
+          "raw": "(10/103)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "I2"
+        },
+        {
+          "raw": "(Jagdish Patel Learning Theatre,7/106,7/107)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 221",
+    "name": "Mechanics of Solids",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Harmeet Singh(I+T)",
+      "Harini Subramanian(T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "C1,C2"
+        },
+        {
+          "raw": "(7/208)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "B1"
+        },
+        {
+          "raw": "(7/102,7/107)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 212",
+    "name": "Fluid Mechanics",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Subhasish Dey(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(7/101)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "H2"
+        },
+        {
+          "raw": "(7/108)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 214",
+    "name": "Discrete Mathematics",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Jyothi Krishnan(I+T)",
+      "Balagopal (T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "B1,B2"
+        },
+        {
+          "raw": "(Jayshree S Sheth Learning Theatre)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "I2"
+        },
+        {
+          "raw": "(Surendra C Sheth Learning Theatre,7/201)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 246",
+    "name": "Vacuum Technology Laboratory",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Emila Panda(L)"
+    ],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "I1,K1"
+        },
+        {
+          "raw": "(10/103,MSE Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ES 247",
+    "name": "IC Fabrication Processes",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Nihar Mohapatra(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(11/101)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EE 227",
+    "name": "CMOS Circuit Design",
+    "credits": {
+      "L": 2.0,
+      "T": 1.0,
+      "P": 1.5,
+      "C": 4.0
+    },
+    "instructors": [
+      "Joycee Mekie(I+T+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D2,J2"
+        },
+        {
+          "raw": "(Jayshree S Sheth Learning Theatre)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "J2"
+        },
+        {
+          "raw": "(Jayshree S Sheth Learning Theatre)"
+        }
+      ],
+      "lab": [
+        {
+          "raw": "B1,D1"
+        },
+        {
+          "raw": "(10/104)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CE 202",
+    "name": "Sustainability and Environment",
+    "credits": {
+      "L": 1.0,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 3.0
+    },
+    "instructors": [
+      "Abhishek Singhal(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "B1"
+        },
+        {
+          "raw": "(7/109)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "B2,I2"
+        },
+        {
+          "raw": "(7/109)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ME 207",
+    "name": "Fluid Dynamics",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 1.5,
+      "C": 5.0
+    },
+    "instructors": [
+      "Shubhangi Bansude(I+T)",
+      "Lokesh Malik(L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(Surendra C Sheth Learning Theatre)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "H2"
+        },
+        {
+          "raw": "(7/208,7/209)"
+        }
+      ],
+      "lab": [
+        {
+          "raw": "I1"
+        },
+        {
+          "raw": "(Surendra C Sheth Learning Theatre)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ME 208",
+    "name": "Vibrations",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Jayaprakash K. R.(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "K1,K2"
+        },
+        {
+          "raw": "(7/209)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "J2"
+        },
+        {
+          "raw": "(7/209)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ME 333",
+    "name": "Mechanics of Materials",
+    "credits": {
+      "L": 2.0,
+      "T": 1.0,
+      "P": 1.0,
+      "C": 3.0
+    },
+    "instructors": [
+      "Prabhat Munshi(I+T+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1,L2"
+        },
+        {
+          "raw": "(7/109)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "L1,L2"
+        },
+        {
+          "raw": "(7/109)"
+        }
+      ],
+      "lab": [
+        {
+          "raw": "J2"
+        },
+        {
+          "raw": "(ME Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CE 302",
+    "name": "Structural Analysis",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Manish Kumar(I+T)",
+      "S Chandrasekaran(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1,E2"
+        },
+        {
+          "raw": "(7/101)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "A1"
+        },
+        {
+          "raw": "(7/101)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "CS 303",
+    "name": "Mathematical Foundations for AI",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Nirmal Sancheti(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(Harsha Patel Learning Theatre)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "K2"
+        },
+        {
+          "raw": "(Surendra C Sheth Learning Theatre)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "MSE 315",
+    "name": "Introduction to Computational Materials Engineering",
+    "credits": {
+      "L": 2.0,
+      "T": 1.0,
+      "P": 1.5,
+      "C": 4.0
+    },
+    "instructors": [
+      "Raghavan Ranganathan(I+T+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(7/210)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "D1"
+        },
+        {
+          "raw": "(7/203)"
+        }
+      ],
+      "lab": [
+        {
+          "raw": "I1"
+        },
+        {
+          "raw": "(7/202)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "MSE 205",
+    "name": "Mechanical Behavior of Materials",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 1.5,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sriharitha Rowthu(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1,D2"
+        },
+        {
+          "raw": "(7/205)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "K1"
+        },
+        {
+          "raw": "(MSE Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "MSE 206",
+    "name": "Physics of Materials",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Gopinadhan Kalon(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "C1,C2"
+        },
+        {
+          "raw": "(7/103)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MSE 207",
+    "name": "Structure of Materials",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Anagh Bhaumik(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "B1,B2"
+        },
+        {
+          "raw": "(7/210)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "I2"
+        },
+        {
+          "raw": "(7/101)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "MSE 210",
+    "name": "Microstructural Engineering",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 1.5,
+      "C": 4.0
+    },
+    "instructors": [
+      "Prafull Pandey(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "A1,A2"
+        },
+        {
+          "raw": "(7/105)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "J2"
+        },
+        {
+          "raw": "(MSE Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "EE 224",
+    "name": "Power Systems",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Naran Pindoriya(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(7/208)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "H2"
+        },
+        {
+          "raw": "(7/102,7/107)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 245",
+    "name": "Control Systems",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "S Rajendran(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "A1,A2"
+        },
+        {
+          "raw": "(Jagdish Patel Learning Theatre)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "K1"
+        },
+        {
+          "raw": "(7/202,7/108,7/109)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 301",
+    "name": "Data Structures and Algorithms II",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Manoj Gupta(I+T)",
+      "Neeldhara Misra (T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(Jagdish Patel Learning Theatre)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "J1"
+        },
+        {
+          "raw": "(Jagdish Patel Learning Theatre,7/205,7/110)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 336",
+    "name": "Computer Organization & Architecture",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sameer Kulkarni(I+T)",
+      "Joycee Mekie(T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "N1,N2"
+        },
+        {
+          "raw": "(Jasubhai Auditorium)"
+        }
+      ],
+      "tutorial": [
+        {
+          "slots": [
+            "H1"
+          ],
+          "room": "11/101,7/209"
+        },
+        {
+          "slots": [
+            "E2"
+          ],
+          "room": "11/101,7/209"
+        },
+        {
+          "slots": [
+            "B2"
+          ],
+          "room": "11/102,Harsha Patel Learning Theatre"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "PE 104",
+    "name": "Physical Education",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 0.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "IN 103",
+    "name": "Comprehensive Viva Voce",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 0.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CS 328",
+    "name": "Introduction to Data Science",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Anirban Dasgupta(I+T)",
+      "Neeldhara Misra(T)",
+      "Yogesh Meena(T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(10/103)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "J2"
+        },
+        {
+          "raw": "(10/103,11/101,11/102)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 335",
+    "name": "Machine Learning",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Krishna Miyapuram(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(10/103)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "H1,N1"
+        },
+        {
+          "raw": "(10/103,Jayshree S Sheth Learning Theatre)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 336",
+    "name": "Computer Organization & Architecture",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sameer Kulkarni(I+T)",
+      "Joycee Mekie(T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "N1,N2"
+        },
+        {
+          "raw": "(Jasubhai Auditorium)"
+        }
+      ],
+      "tutorial": [
+        {
+          "slots": [
+            "H1"
+          ],
+          "room": "11/101,7/209"
+        },
+        {
+          "slots": [
+            "E2"
+          ],
+          "room": "11/101,7/209"
+        },
+        {
+          "slots": [
+            "B2"
+          ],
+          "room": "11/102,Harsha Patel Learning Theatre"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "CS XXX",
+    "name": "Discipline Elective",
+    "credits": {
+      "L": "X",
+      "T": "X",
+      "P": "X",
+      "C": 4.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CS XXX",
+    "name": "Discipline Elective",
+    "credits": {
+      "L": "X",
+      "T": "X",
+      "P": "X",
+      "C": 4.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "IN 106",
+    "name": "Comprehensive Viva Voce (Third Year B.Tech. Students)",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 0.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CL 316",
+    "name": "Separation Processes - II",
+    "credits": {
+      "L": 2.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 3.0
+    },
+    "instructors": [
+      "Karthik Subramaniam(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(7/107)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(7/107)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "CL 317",
+    "name": "Process Synthesis, Design, and Simulation",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Hari Ganesh(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1"
+        },
+        {
+          "raw": "(7/202)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "K1,H1"
+        },
+        {
+          "raw": "(10/104)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CL 325",
+    "name": "Transport Phenomena",
+    "credits": {
+      "L": 2.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 3.0
+    },
+    "instructors": [
+      "Nitin Padhiyar(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(7/102)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(7/102)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "CL 327",
+    "name": "Integrated Chemical Engineering Lab-II",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Kaustubh Rane(L)"
+    ],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "J1,L1"
+        },
+        {
+          "raw": "(CL Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "HS XXX",
+    "name": "HSS Elective",
+    "credits": {
+      "L": "X",
+      "T": "X",
+      "P": "X",
+      "C": 4.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "IN 106",
+    "name": "Comprehensive Viva Voce (Third Year B.Tech. Students)",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 0.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS XXX",
+    "name": "HS Elective",
+    "credits": {
+      "L": "X",
+      "T": "X",
+      "P": "X",
+      "C": 4.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "IN 108",
+    "name": "Comprehensive Viva Voce (Fourth Year B.Tech. Students)",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 0.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CE 313",
+    "name": "Environmental Science and Engineering",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sameer Patel(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(7/103)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CE 311",
+    "name": "Design of Reinforced Concrete Structures",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 1.5,
+      "C": 5.0
+    },
+    "instructors": [
+      "Gaurav Srivastava(I+T)",
+      "Siva Chopeperla(T+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(7/103)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "L2"
+        },
+        {
+          "raw": "(7/206,7/102)"
+        }
+      ],
+      "lab": [
+        {
+          "raw": "N2"
+        },
+        {
+          "raw": "(CE Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CE 314",
+    "name": "Geotechnical Engineering",
+    "credits": {
+      "L": 1.5,
+      "T": 1.5,
+      "P": 3.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "SR Gandhi(I+T)",
+      "Ajanta Sachan(L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "F1"
+        },
+        {
+          "raw": "(7/206)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "F2"
+        },
+        {
+          "raw": "(7/206)"
+        }
+      ],
+      "lab": [
+        {
+          "raw": "K1,H1"
+        },
+        {
+          "raw": "(CE Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "HS XXX",
+    "name": "HSS Elective",
+    "credits": {
+      "L": "X",
+      "T": "X",
+      "P": "X",
+      "C": 4.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "IN 106",
+    "name": "Comprehensive Viva Voce (Third Year B.Tech. Students)",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 0.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CE 403",
+    "name": "Construction Technology & Management",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Amarjit Singh(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "C1,C2"
+        },
+        {
+          "raw": "(7/209)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "IN 108",
+    "name": "Comprehensive Viva Voce (Fourth Year B.Tech. Students)",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 0.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 336",
+    "name": "Computer Organization & Architecture",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sameer Kulkarni(I+T)",
+      "Joycee Mekie(T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "N1,N2"
+        },
+        {
+          "raw": "(Jasubhai Auditorium)"
+        }
+      ],
+      "tutorial": [
+        {
+          "slots": [
+            "H1"
+          ],
+          "room": "11/101,7/209"
+        },
+        {
+          "slots": [
+            "E2"
+          ],
+          "room": "11/101,7/209"
+        },
+        {
+          "slots": [
+            "B2"
+          ],
+          "room": "11/102,Harsha Patel Learning Theatre"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "IN 106",
+    "name": "Comprehensive Viva Voce (Third Year B.Tech. Students)",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 0.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "IN 108",
+    "name": "Comprehensive Viva Voce (Fourth Year B.Tech. Students)",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 0.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EE 313",
+    "name": "Communication Systems",
+    "credits": {
+      "L": 2.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 3.0
+    },
+    "instructors": [
+      "Raghunandan M. Rao(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "J1,J2"
+        },
+        {
+          "raw": "(7/208)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "L2"
+        },
+        {
+          "raw": "(7/209)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "EE 341",
+    "name": "Communication Systems",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Raghunandan M. Rao(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "J1,J2"
+        },
+        {
+          "raw": "(Surendra C Sheth Learning Theatre)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "L2,N2"
+        },
+        {
+          "raw": "(Harsha Patel Learning Theatre)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS XXX",
+    "name": "HSS Elective",
+    "credits": {
+      "L": "X",
+      "T": "X",
+      "P": "X",
+      "C": 4.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "IN 106",
+    "name": "Comprehensive Viva Voce (Third Year B.Tech. Students)",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 0.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "IN 108",
+    "name": "Comprehensive Viva Voce (Fourth Year B.Tech. Students)",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 0.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ME 335",
+    "name": "Synthesis and Analysis of Mechanisms",
+    "credits": {
+      "L": 2.0,
+      "T": 0.0,
+      "P": 1.0,
+      "C": 3.0
+    },
+    "instructors": [
+      "Vineet Vashista(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(7/208)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "I1"
+        },
+        {
+          "raw": "(Makers Bhavan)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ME 337",
+    "name": "Mechanical Systems Design",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 3.0
+    },
+    "instructors": [
+      "Prabhat Munshi(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "C1,C2"
+        },
+        {
+          "raw": "(7/109)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 337",
+    "name": "Energy Systems",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 3.0
+    },
+    "instructors": [
+      "Atul Bhargav(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "F1,F2"
+        },
+        {
+          "raw": "(Jagdish Patel Learning Theatre)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS XXX",
+    "name": "HSS Elective",
+    "credits": {
+      "L": "X",
+      "T": "X",
+      "P": "X",
+      "C": 4.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "IN 106",
+    "name": "Comprehensive Viva Voce (Third Year B.Tech. Students)",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 0.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "IN 108",
+    "name": "Comprehensive Viva Voce (Fourth Year B.Tech. Students)",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 0.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MSE 312",
+    "name": "Materials and Environment",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Pradipta Ghosh(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1"
+        },
+        {
+          "raw": "(13/124)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MSE 316",
+    "name": "Corrosion and Degradation of Materials",
+    "credits": {
+      "L": 2.0,
+      "T": 1.0,
+      "P": 1.5,
+      "C": 4.0
+    },
+    "instructors": [
+      "Amit Arora(I+T+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1,L2"
+        },
+        {
+          "raw": "(7/110)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "M1"
+        },
+        {
+          "raw": "(7/110)"
+        }
+      ],
+      "lab": [
+        {
+          "raw": "P1"
+        },
+        {
+          "raw": "(MSE Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "HS XXX",
+    "name": "HSS Elective",
+    "credits": {
+      "L": "X",
+      "T": "X",
+      "P": "X",
+      "C": 4.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "IN 106",
+    "name": "Comprehensive Viva Voce (Third Year B.Tech. Students)",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 0.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "IN 108",
+    "name": "Comprehensive Viva Voce (Fourth Year B.Tech. Students)",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 0.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "FP 501",
+    "name": "Aarohan (For 2026 MSc and MA students)",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "FP 601",
+    "name": "Aarohan (For 2026 MTech, PGDIIT and PhD students)",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "PE 500",
+    "name": "Physical Education (For 2022 MSc and MA students)",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 0.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "PE 600",
+    "name": "Physical Education (For 2022 M Tech and PhD students)",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 0.0
+    },
+    "instructors": [],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 404",
+    "name": "Networks and Complex Systems",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Udit Bhatia(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(7/207,7/110)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 622",
+    "name": "Finite Element Methods",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Gaurav Srivastava(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "Tuesday & Thursday (6:30 PM to 7:50 PM)"
+        },
+        {
+          "raw": "(7/202)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CE 602",
+    "name": "Analysis and Design of Foundation Systems",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 5.0
+    },
+    "instructors": [
+      "Amit Prashant(I)",
+      "Ajanta Sachan(L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(13/124)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "J1,L1"
+        },
+        {
+          "raw": "(CE Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CE 605",
+    "name": "Remote Sensing of Land and Water Resources",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Vimal Mishra(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(7/101)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CE 615",
+    "name": "Structural Design for Fire",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Gaurav Srivastava(I)",
+      "S Chandrasekaran(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(7/107)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CE 628",
+    "name": "Applied Hydraulic Transients",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Pranab Mohapatra(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "J1,J2"
+        },
+        {
+          "raw": "(13/124)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CE 629",
+    "name": "Geosynthetics",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "GV Rao(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1,L2"
+        },
+        {
+          "raw": "(13/124)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CE 632",
+    "name": "Advanced Concrete Design",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Dhiman Basu(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "K1,K2"
+        },
+        {
+          "raw": "(7/204)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CE 636",
+    "name": "Traffic and Roadway Engineering",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sushobhan Sen(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1,E2"
+        },
+        {
+          "raw": "(11/206)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CE 639",
+    "name": "AI for Civil Engineering",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Udit Bhatia(I)",
+      "Sushobhan Sen(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "C1,C2"
+        },
+        {
+          "raw": "(7/104)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CE 691-I",
+    "name": "Special Topics in Civil Engineering: Design for Dynamic Loads",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Manish Kumar(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "P1,P2"
+        },
+        {
+          "raw": "(13/124)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CE 691-V",
+    "name": "Special Topics in Civil Engineering: Geotechnical Infrastructure Projects",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "SR Gandhi(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I1,I2"
+        },
+        {
+          "raw": "(7/203)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CE 691-VII",
+    "name": "Special Topics: Drinking Water Treatment : Engineering Practices",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sudhir Arora(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "N1,N2"
+        },
+        {
+          "raw": "(7/102)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 418",
+    "name": "Financial Modeling and Engineering",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Mithun Radhakrishna(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "Monday & Wednesday (6:30 PM to 7:50 PM)"
+        },
+        {
+          "raw": "(Jayshree S Sheth Learning Theatre)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CL 605",
+    "name": "Colloidal Domain: Where Science Meets Engineering",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Prachi Thareja(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "C1,C2"
+        },
+        {
+          "raw": "(7/202)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CL 353",
+    "name": "Introduction to Process Safety",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Chinmay Ghoroi(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "A2"
+        },
+        {
+          "raw": "(7/208)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 617",
+    "name": "Design of Experiments",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Nitin Padhiyar(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "N1,N2"
+        },
+        {
+          "raw": "(10/102)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CL 627",
+    "name": "Particulate Solids: Processing & Surface Engineering",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Chinmay Ghoroi(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "H1,P2"
+        },
+        {
+          "raw": "(7/103)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CL 629",
+    "name": "Fundamentals of Aerosol Science",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sameer Patel(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I1,K2"
+        },
+        {
+          "raw": "(11/101)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CL 628",
+    "name": "Liquid State Theory",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Kaustubh Rane(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1,D2"
+        },
+        {
+          "raw": "(11/102)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "K1"
+        },
+        {
+          "raw": "(7/207)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "CL 630",
+    "name": "Catalyst Design for Heterogeneous Reactions",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Abinaya Sampath(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "K1,L1"
+        },
+        {
+          "raw": "(7/201)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CL 631",
+    "name": "Pharmaceutical Crystallization",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sameer Dalvi(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I1,J2"
+        },
+        {
+          "raw": "(11/206)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CL 632",
+    "name": "Advanced Separation Processes",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "TBD1(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "A1,A2"
+        },
+        {
+          "raw": "(7/206)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "B1"
+        },
+        {
+          "raw": "(7/101)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "CL 633",
+    "name": "Applications of AI in Chemical Engineering",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "TBD2(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "F1,F2"
+        },
+        {
+          "raw": "(10/102)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "H2"
+        },
+        {
+          "raw": "(7/110)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 658",
+    "name": "Molecular Simulations \u2013 Theory and Applications",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Mithun Radhakrishna(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "N1,N2"
+        },
+        {
+          "raw": "(7/108)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "P1"
+        },
+        {
+          "raw": "(7/108)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "CH 203",
+    "name": "Fundamentals and Applications of Spectroscopy",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sairam Swaroop Mallajosyula(I)",
+      "Saumyakanti Khatua(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "K1,K2"
+        },
+        {
+          "raw": "(Jayshree S Sheth Learning Theatre)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CH 503",
+    "name": "Fundamentals of Analytical Chemistry",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Bhaskar Datta(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "N1,N2"
+        },
+        {
+          "raw": "(7/104)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CH 512",
+    "name": "Reactions and Mechanisms in Organic Chemistry",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Chandrakumar Appayee(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "F1,F2"
+        },
+        {
+          "raw": "(7/108)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CH 522",
+    "name": "Inorganic Chemistry Laboratory",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Biswajit Mondal(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I1,K1"
+        },
+        {
+          "raw": "(CH Lab)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CH 523",
+    "name": "Organic Chemistry Laboratory",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Chandrakumar Appayee(I)"
+    ],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "J2,M2"
+        },
+        {
+          "raw": "(CH Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CH 524",
+    "name": "Analytical and Computational Chemistry Laboratory",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Anirban Mondal(I+L)"
+    ],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "I2,M1"
+        },
+        {
+          "raw": "(10/104)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CH 525",
+    "name": "Physical Chemistry Laboratory",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Manisha Samanta(I+L)"
+    ],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "E2,H1"
+        },
+        {
+          "raw": "(CH Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CH 526",
+    "name": "Group theory and spectroscopy",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Partha Pratim Roy(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "B1,B2"
+        },
+        {
+          "raw": "(7/110)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CH 527",
+    "name": "Organometallic Chemistry",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Iti Gupta(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(7/206)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CH 591-I",
+    "name": "Special Topics in Chemistry: Introduction to Polymer Chemistry",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Kuljeet Kaur(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(7/104)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CH 592-I",
+    "name": "Chemical biology in space (Special topics course)",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Kasthuri Venkat(I)",
+      "Sivapriya Kirubakaran(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(11/204,11/205)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CH 602",
+    "name": "Chemistry of Natural Products",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sudipta Basu(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "H1,J2"
+        },
+        {
+          "raw": "(7/110)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CH 615",
+    "name": "Electrochemistry",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Biswajit Mondal(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(7/205)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CH 628",
+    "name": "Fluorescence Spectroscopy for Chemists and Biologists",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sriram Kanvah(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "P1,P2"
+        },
+        {
+          "raw": "(7/105)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CH 629",
+    "name": "Medicinal Chemistry for Life",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sivapriya Kirubakaran(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "C1,C2"
+        },
+        {
+          "raw": "(13/124)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CH 630",
+    "name": "Catalytic Chemistry",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sudhanshu Sharma(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "F1,F2"
+        },
+        {
+          "raw": "(11/102)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CH 632",
+    "name": "Solid State Chemistry and Applications",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sudhanshu Sharma(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(Harsha Patel Learning Theatre)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CH 633",
+    "name": "Single Molecule Spectroscopy",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Saumyakanti Khatua(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "J1"
+        },
+        {
+          "raw": "(7/101)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "L1,L2"
+        },
+        {
+          "raw": "(CH Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CH 634",
+    "name": "Introduction to Molecular Dynamics",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sairam Mallajosyula(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1"
+        },
+        {
+          "raw": "(7/210)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "N1,N2"
+        },
+        {
+          "raw": "(10/104)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CH 638",
+    "name": "Electronic Structure Theory",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Anirban Mondal(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "K1,F2"
+        },
+        {
+          "raw": "(11/206)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CH 639",
+    "name": "Advanced Main Group Chemistry",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Priyabrata Ghana(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I1,I2"
+        },
+        {
+          "raw": "(7/105)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CH 642",
+    "name": "Non-linear Spectroscopy and its Applications",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Partha Pratim Roy(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I1,I2"
+        },
+        {
+          "raw": "(7/103)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MA 513",
+    "name": "AI and Mathematics",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Aditya Nema(I+T)",
+      "Madhu Gupta(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "K1,K2"
+        },
+        {
+          "raw": "(7/205)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "B1"
+        },
+        {
+          "raw": "(7/205)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "MA 502",
+    "name": "Complex Analysis",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sanjay Amrutiya(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(7/109)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "A1"
+        },
+        {
+          "raw": "(7/203)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "MA 507",
+    "name": "Ordinary Differential Equations",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Tanya Srivastava(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1,E2"
+        },
+        {
+          "raw": "(7/109)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "B1"
+        },
+        {
+          "raw": "(7/108)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "MA 606",
+    "name": "Differential Topology",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Arnab Saha(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I1,I2"
+        },
+        {
+          "raw": "(7/102)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MA 629 (A)",
+    "name": "Real analysis of several variables",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Rohit Kumar Mishra(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "C1,C2"
+        },
+        {
+          "raw": "(7/108)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "A2"
+        },
+        {
+          "raw": "(7/202)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "MA 637",
+    "name": "Numerical Analysis and Computing",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Madhu Gupta(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(7/209)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "H2"
+        },
+        {
+          "raw": "(10/203)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "MA 625",
+    "name": "Stochastic Differential Equations",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Chetan Pahlajani(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "K1,K2"
+        },
+        {
+          "raw": "(7/110)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MA 628",
+    "name": "Algebra II",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Indranath Sengupta(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "F1,F2"
+        },
+        {
+          "raw": "(Jayshree S Sheth Learning Theatre)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "L2"
+        },
+        {
+          "raw": "(5/202)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "MA 634",
+    "name": "Algebraic Number theory",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Akshaa Vatwani(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "J1,J2"
+        },
+        {
+          "raw": "(7/103)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MA 638",
+    "name": "Matrix Lie Groups",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Bipul Saurabh(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "P1,P2"
+        },
+        {
+          "raw": "(7/205)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MA 639",
+    "name": "Matrix Analysis",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Projesh Nath Choudhury(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(7/208)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MA 645",
+    "name": "Commutative Algebra II",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Jugal K Verma(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1,E2"
+        },
+        {
+          "raw": "(7/105)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "K1,K2"
+        },
+        {
+          "raw": "(7/203)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "MA 646",
+    "name": "Modular Forms",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Atul Dixit(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1,B2"
+        },
+        {
+          "raw": "(7/202)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MA 691-IV",
+    "name": "Elliptic cruves and surfaces",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Tanya Srivastava(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "A1,A2"
+        },
+        {
+          "raw": "(7/108)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MA 691-V",
+    "name": "Commutative Algebra - II",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Jugal K Verma(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1,E2"
+        },
+        {
+          "raw": "(7/105)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "K2"
+        },
+        {
+          "raw": "(7/203)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "MA 691-VII",
+    "name": "Special Topics in Mathematics: Hermitian Analysis",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Gadadhar Misra(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1,E2"
+        },
+        {
+          "raw": "(7/102)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "A1"
+        },
+        {
+          "raw": "(7/102)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "PH 409",
+    "name": "Introduction to Astronomy and Space Science",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Urjit Yajnik(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "K1,K2"
+        },
+        {
+          "raw": "(7/101)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "PH 653",
+    "name": "Advanced Condensed Matter Physics",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Abhisek Samanta(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "C1,C2"
+        },
+        {
+          "raw": "(7/210)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "PH 504",
+    "name": "Quantum Mechanics II",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Arpan Bhattacharyya(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(10/102)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "A1"
+        },
+        {
+          "raw": "(7/202)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "PH 506",
+    "name": "Methods of Experimental Physics",
+    "credits": {
+      "L": 1.0,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Krishnakanti Dey(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "C1"
+        },
+        {
+          "raw": "(7/107)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "J1,L1"
+        },
+        {
+          "raw": "(PH Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "PH 507",
+    "name": "Statistical Mechanics",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Ravinder Puri(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1,E2"
+        },
+        {
+          "raw": "(10/102)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "B1"
+        },
+        {
+          "raw": "(10/102)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "PH 509 (N)",
+    "name": "Computational Physics",
+    "credits": {
+      "L": 2.0,
+      "T": 0.0,
+      "P": 2.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Anand Sengupta(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(7/109)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "I1,K1"
+        },
+        {
+          "raw": "(10/204)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "PH 513",
+    "name": "Electronic Devices & Digital Systems for Physicists",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Krista Khaingte(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "F1,F2"
+        },
+        {
+          "raw": "(7/204)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "PH 514",
+    "name": "AI in Physics",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 1.5,
+      "C": 4.0
+    },
+    "instructors": [
+      "Naveen Sisodia(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(7/210)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "I1"
+        },
+        {
+          "raw": "(7/110)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "PH 607",
+    "name": "Topics in Quantum and Statistical Mechanics",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Ravinder Puri(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "P1,H1"
+        },
+        {
+          "raw": "(7/206)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "PH 608",
+    "name": "Tools of Theoretical Physics",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Vinod Chandra(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(11/205)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "PH 612",
+    "name": "Quantum Field Theory-II",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Baradhwaj Coleppa(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "F1,F2"
+        },
+        {
+          "raw": "(5/202)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "PH 615",
+    "name": "Physics of two-dimensional materials",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Gopinadhan Kalon(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(7/207)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "PH 616",
+    "name": "Quantum Optics",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Prasanna Venkatesh(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(11/206)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "PH 644",
+    "name": "Tools of Experimental Physics",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Rupak Banerjee(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "F1,F2"
+        },
+        {
+          "raw": "(7/110)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "PH 649",
+    "name": "Advanced General Relativity",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sudipta Sarkar(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "A1,A2"
+        },
+        {
+          "raw": "(7/205)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "PH 691-V",
+    "name": "Special Topics in Physics: Effective Field Theory",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Pinaki Banerjee(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I1,K2"
+        },
+        {
+          "raw": "(7/206)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "FP 602 (CH)",
+    "name": "Writing Course in Chemistry",
+    "credits": {
+      "L": 1.0,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sriram Kanvah(I+L)",
+      "Manisha Samanta(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "A1"
+        },
+        {
+          "raw": "(Jayshree S Sheth Learning Theatre)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "E1,H2"
+        },
+        {
+          "raw": "(Jayshree S Sheth Learning Theatre)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "FP 602 (PH)",
+    "name": "Writing Course in Physics",
+    "credits": {
+      "L": 1.0,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Urjit Yajnik(I+L)",
+      "Naveen Sisodia(L)",
+      "Krista Khaingte(L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "B2"
+        },
+        {
+          "raw": "(Surendra C Sheth Learning Theatre)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "L2,N2"
+        },
+        {
+          "raw": "(Jayshree S Sheth Learning Theatre)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "HS 103",
+    "name": "French Studies",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Praharsh Mohanlal Patel(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I1,I2"
+        },
+        {
+          "raw": "(7/208)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 111",
+    "name": "Urdu script and poetry",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Mohd. Mubashshir Ahsan(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(7/201)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "H2"
+        },
+        {
+          "raw": "(7/106)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 112",
+    "name": "Urdu poetry interpretation",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Mohd. Mubashshir Ahsan(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "H1,M1"
+        },
+        {
+          "raw": "(7/102)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "Tuesday (6:30 PM to 7:50 PM)"
+        },
+        {
+          "raw": "(7/107)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 152",
+    "name": "Japanese Language for Beginners",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sweta Mistry(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(11/102)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "J1"
+        },
+        {
+          "raw": "(11/102)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 153",
+    "name": "Advance Japanese Learning",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sweta Mistry(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "Monday, Wednesday, Friday (6:30 PM to 8:00 PM)"
+        },
+        {
+          "raw": "(11/205)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 154",
+    "name": "Mandarin for Beginners",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Hao-Tsung (William) Kao(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "N1,N2"
+        },
+        {
+          "raw": "(7/209)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 155",
+    "name": "Mandarin for Beginners - II",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Hao-Tsung (William) Kao(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1,L2"
+        },
+        {
+          "raw": "(11/102)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 192-I",
+    "name": "Special Topics in HSS: Conversational English (first half)",
+    "credits": {
+      "L": 2.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Suneeti Phadke(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I1,I2"
+        },
+        {
+          "raw": "(7/108)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 201",
+    "name": "World Civilizations and Cultures",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Madhumita Sengupta(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1,L2"
+        },
+        {
+          "raw": "(Surendra C Sheth Learning Theatre)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 223",
+    "name": "Sanskrit Literature",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Mana Shah(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "K1,K2"
+        },
+        {
+          "raw": "(7/106)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "J1"
+        },
+        {
+          "raw": "(7/106)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 513",
+    "name": "Perspectives in History",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Madhumita Sengupta(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(7/204)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 514",
+    "name": "Sociology of Tourism",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Ambika Aiyadurai(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "B1,B2"
+        },
+        {
+          "raw": "(11/101)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 515",
+    "name": "The Politics of the Environment",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Ambika Aiyadurai(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I1,I2"
+        },
+        {
+          "raw": "(7/208)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 518",
+    "name": "Philosophy, Cognition and Psychoanalyis",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Arka Chattopadhyay(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "J1,J2"
+        },
+        {
+          "raw": "(7/102)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 519",
+    "name": "Linguistic Anthropology",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "TBD7(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "N1,N2"
+        },
+        {
+          "raw": "(7/104)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 523",
+    "name": "Quantitative Research Methods in Social Sciences",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Deepak Singhania(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1,E2"
+        },
+        {
+          "raw": "(7/103)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "B1"
+        },
+        {
+          "raw": "(10/203)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 610",
+    "name": "Critical Journey  through Select Thoughts and Theories",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Arnapurna Rath(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "F1,F2"
+        },
+        {
+          "raw": "(7/205)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 635",
+    "name": "India Through the Writer\u2019s Eye",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sharmita Lahiri(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "J1,J2"
+        },
+        {
+          "raw": "(7/202)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 642",
+    "name": "Structures and Hydrology in Ancient India",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Alok Kumar Kanungo(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(7/108)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 650",
+    "name": "Critical Perspectives in Anthropology",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Ambika Aiyadurai(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(7/107)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 651",
+    "name": "Critical Perspectives in Sociology",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Tanka B. Subba(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "A1,A2"
+        },
+        {
+          "raw": "(7/110)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 653",
+    "name": "Academic Communication: Explanation and Paraphrasing",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Jooyoung Kim(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "P1,P2"
+        },
+        {
+          "raw": "(11/204)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 654",
+    "name": "Mixed Methods in Research",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Aditi Kothiyal(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(11/101)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 657",
+    "name": "Mixed Methods in Research",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Aditi Kothiyal(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(11/101)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 691-IX",
+    "name": "Decolonizing Social Sciences",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Tanka B. Subba(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I1,I2"
+        },
+        {
+          "raw": "(11/205)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 691-VII",
+    "name": "Special Topics in HSS: Haunting, Spectrality and Cinema",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Arka Chattopadhyay(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(7/206)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 491-III",
+    "name": "Strorytelling for the Digital Era",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Arnapurna Rath(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "P1,P2"
+        },
+        {
+          "raw": "(7/104)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 491-XI",
+    "name": "Special Topics in HSS: Understanding and Designing Comics and Graphic Novels",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Argha Manna(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I1,J2"
+        },
+        {
+          "raw": "(7/201)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 491-XIII",
+    "name": "Drawing Conncetions: Enviranmental Perception and Visula Anthropology",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Suman Choudhury(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(10/102)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 491-XIV",
+    "name": "Special Topics in HSS: Appreciation of Classical Indian Music",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Pandit Mahendra D. Toke(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1,L2"
+        },
+        {
+          "raw": "(7/209)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 656",
+    "name": "Ethanoarchaeology",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Alok Kumar Kanungo(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "N1,N2"
+        },
+        {
+          "raw": "(7/203)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 527",
+    "name": "Environmental Economics and Natural Resource Management",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Praharsh Patel(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(7/204)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "IN 402",
+    "name": "Human Evolution",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sharada CV(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "P1,P2"
+        },
+        {
+          "raw": "(7/204)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 108",
+    "name": "Japan Studies",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Toshiki Osada(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1,E2"
+        },
+        {
+          "raw": "(7/201)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "DES 302",
+    "name": "Creativity, Design and Doing",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Manasi Kanetkar(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "N1,N2"
+        },
+        {
+          "raw": "(Jagdish Patel Learning Theatre)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "DES 591-I",
+    "name": "Game Apreciation and Game Aesthetics",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Malay Dhamelia(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "J1,L1"
+        },
+        {
+          "raw": "(7/204)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "DES 601",
+    "name": "Visual Design for Academia",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sameer Sahasrabudhe(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1"
+        },
+        {
+          "raw": "(7/101)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "J2,M2"
+        },
+        {
+          "raw": "(7/203)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "DES 691-II",
+    "name": "Special Topics in Design: Designing Learning environments for science and engineering",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Aditi Kothiyal(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1,L2"
+        },
+        {
+          "raw": "(11/101)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MS 404",
+    "name": "Neuromarketing (second half)",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Aditi (GTF)(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(7/109)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MS 306",
+    "name": "Principles of Business Management",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Abhijit Kothari(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "N1,N2"
+        },
+        {
+          "raw": "(7/208)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MS 491-VII",
+    "name": "Special Topics in Management: Managing Sustainable Businesses",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Anselm Schneider(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,F2"
+        },
+        {
+          "raw": "(Online)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MS 491-XIV",
+    "name": "Special Topics in Management: Consumer Behaviour",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Marcos Severos(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(Online)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MS 491-XV",
+    "name": "Special Topics in Management: Medical Products Manufacturing Quality and Regulatory \n(first half)",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 3.0
+    },
+    "instructors": [
+      "Premalatha Chelvakumar(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "J1,J2"
+        },
+        {
+          "raw": "(7/207)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MS 491-XVI",
+    "name": "Special Topics in Management: Lean Six Sigma",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Alok Bhatnagar(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(7/206)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MS 491-XVII",
+    "name": "Special Topics in Management: Organizational Psychology",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Ramachandran Veetikazhi(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "P1,P2"
+        },
+        {
+          "raw": "(7/110)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MS 492-I",
+    "name": "Special Topics in Management: Strategic Leadership\n(first half)",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Rajeev Sharma(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "P1,P2"
+        },
+        {
+          "raw": "(7/102)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MS 492-II",
+    "name": "Special Topics in Management: Business Risk Management\n(first half)",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Prerna Wadikar(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "N1,P1"
+        },
+        {
+          "raw": "(7/110)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MS 491-XVIII",
+    "name": "Special Topics in Management: Comprehensive Business Ethics & Responsible Leadership",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Ramachandran Veetikazhi(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1,L2"
+        },
+        {
+          "raw": "(10/102)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MS 491-XIX",
+    "name": "Special Topics in Management: Comprehensive Manufacturing Quality & Regulatory of Medical Products",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Premalatha Chelvakumar(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "J1,J2"
+        },
+        {
+          "raw": "(7/207)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MS 492-IV",
+    "name": "Special Topics in Management: Business Ethics and Responsible Leadership (first half)",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Ramachandran Veetikazhi(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1,L2"
+        },
+        {
+          "raw": "(10/102)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MS 492-V",
+    "name": "Special Topics in Management: Essentials of Finance and Trade Laws\n(second half)",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Savan Godiawala(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "K1,K2"
+        },
+        {
+          "raw": "(11/102)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MS 492-VII",
+    "name": "Special Topics in Management: International Marketing",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Monika Kothari(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(7/208)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 491-VIII",
+    "name": "Special Topics in HSS: Challenges in the Digital Society",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Nuno Guimaraes(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(11/101)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CG 507",
+    "name": "Evolutionary Neuropsychology\n(Quad 1)",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Frederick Coolidge(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(7/202)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "HS 392",
+    "name": "Special Topics in HSS: Competitiveness and Ethical Leadership \n(first half)",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Anurima Chatterjee(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "Saturday (10:00 AM to 1:00 PM)"
+        },
+        {
+          "raw": "(Harsha Patel Learning Theatre)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "BE 304",
+    "name": "Introduction to Biomedical Engineering",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Karla P. Mercado-Shekhar(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "P1,P2"
+        },
+        {
+          "raw": "(7/109)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "BE 402",
+    "name": "Biomolecular Forensics",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Bhaskar Datta(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "B1,B2"
+        },
+        {
+          "raw": "(7/104)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "BE 407",
+    "name": "Introduction to Cell Biology",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Subramanian Sankaranarayanan(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "Tuesday & Thursday (6:25 PM to 7:50 PM)"
+        },
+        {
+          "raw": "(Jagdish Patel Learning Theatre)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "BE 603",
+    "name": "Biophysical Techniques",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 1.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Vijay Thiruvenkatam(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "A1,A2"
+        },
+        {
+          "raw": "(11/206)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "I1"
+        },
+        {
+          "raw": "(BE Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "BE 608",
+    "name": "Molecular Basis of Neurodegenerative Diseases",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sharad Gupta(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(13/125)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "BE 610",
+    "name": "Molecular Oncology",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Umashankar Singh(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(13/124)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "BE 615",
+    "name": "Bioinformatics and Computational Biology",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Ashutosh Srivastava(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "A1"
+        },
+        {
+          "raw": "(7/206)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "I2,M1"
+        },
+        {
+          "raw": "(7/109)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "BE 619",
+    "name": "Cellular Communication",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sharmistha Majumdar(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "F1,F2"
+        },
+        {
+          "raw": "(7/105)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "BE 625",
+    "name": "AI Applications in Life Sciences",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sharad Gupta(I)",
+      "Ashutosh Srivastava(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1,E2"
+        },
+        {
+          "raw": "(7/205,7/206)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "BE 626",
+    "name": "Metabolic Engineering",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Ashutosh Srivastava(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "J1,J2"
+        },
+        {
+          "raw": "(7/105)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "BE 627",
+    "name": "Methods in Structural Biology",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 1.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Vijay Thiruvenkatam(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "A1,A2"
+        },
+        {
+          "raw": "(13/124)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "H2"
+        },
+        {
+          "raw": "(BE Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "BE 628",
+    "name": "Transport Phenomenon in Biological Systems",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Rohil Jain(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "A1,A2"
+        },
+        {
+          "raw": "(7/106)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "BE 691-I",
+    "name": "Special Topics in Biological Engineering: Analysis and Characterization of Biologicals",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Dhiraj Bhatia(I+L)",
+      "Sharad Gupta(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I1"
+        },
+        {
+          "raw": "(7/205)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "I2,M1"
+        },
+        {
+          "raw": "(BE Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "BE 692",
+    "name": "Special Topics in Biological Engineering: Animal Cell Culture Techniques",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Sharmistha Majumdar(L)"
+    ],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "K1,H1"
+        },
+        {
+          "raw": "(BE Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "BE 617",
+    "name": "Novel Drug Delivery Technologies: Fundamental Principles and Engineering",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Mukesh Dhanka(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(Jayshree S Sheth Learning Theatre)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "BE 692-I",
+    "name": "Special Topics in Biological Engineering: Nucleic Acids Based Therapeutics (first half)",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Dhiraj Bhatia(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1,L2"
+        },
+        {
+          "raw": "(7/108)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "BE 692-II",
+    "name": "Special Topics in Biological Engineering: Medical Device Regulations (second half)",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Karla P. Mercado-Shekhar(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1,L2"
+        },
+        {
+          "raw": "(Jagdish Patel Learning Theatre)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "BE 692-III",
+    "name": "Special Topics in Biological Engineering: Plant Developmental Biology (first half)",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Subramanian Sankaranarayanan(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "P1,P2"
+        },
+        {
+          "raw": "(7/207)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CG 506",
+    "name": "Experimental Techniques in Cognitive Science",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 1.5,
+      "C": 4.0
+    },
+    "instructors": [
+      "Krishna Miyapuram(I)",
+      "Leslee Lazar(L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "H2"
+        },
+        {
+          "raw": "(7/203)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "K2"
+        },
+        {
+          "raw": "(7/108)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CG 507",
+    "name": "Evolutionary Neuropsychology\n(Quad 1)",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Frederick Coolidge(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(7/202)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CG 517",
+    "name": "Introduction to Cognitive Linguistics",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Jooyoung Kim(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(7/203)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CG 601",
+    "name": "Motor Learning and Memory",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Pratik Mutha(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1,E2"
+        },
+        {
+          "raw": "(7/110)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CG 603",
+    "name": "Perception and Attention",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Meera Mary Sunny(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1,L2"
+        },
+        {
+          "raw": "(7/106)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CG 605",
+    "name": "Learning and Memory",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Leslee Lazar(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(7/105)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CG 607",
+    "name": "Emotion and Cognition",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 1.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Meera Mary Sunny(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1,L2"
+        },
+        {
+          "raw": "(7/106)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "K1"
+        },
+        {
+          "raw": "(7/202)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CG 614",
+    "name": "Human Brain Mapping",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Vaibhav Tripathi(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "F1,F2"
+        },
+        {
+          "raw": "(7/203)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 248",
+    "name": "Introduction to Data Structures and Algorithms",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 3.0
+    },
+    "instructors": [
+      "Anup Kalbalia(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "N1"
+        },
+        {
+          "raw": "(11/101)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "A2,C2"
+        },
+        {
+          "raw": "(10/203)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CS 327",
+    "name": "Compilers",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 1.5,
+      "C": 5.0
+    },
+    "instructors": [
+      "Shouvick Mondal(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "F1,G2"
+        },
+        {
+          "raw": "(Surendra C Sheth Learning Theatre)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "F2"
+        },
+        {
+          "raw": "(10/203,10/204)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CS 328",
+    "name": "Introduction to Data Science",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Anirban Dasgupta(I+T)",
+      "Neeldhara Misra(T)",
+      "Yogesh Meena(T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(10/103)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "J2"
+        },
+        {
+          "raw": "(10/103,11/101,11/102)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 335",
+    "name": "Machine Learning",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Krishna Miyapuram(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(10/103)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "H1,N1"
+        },
+        {
+          "raw": "(10/103,Jayshree S Sheth Learning Theatre)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 335",
+    "name": "Machine Learning",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Krishna Miyapuram(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(10/103)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "H1,N1"
+        },
+        {
+          "raw": "(10/103,Jayshree S Sheth Learning Theatre)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 678",
+    "name": "Machine Learning",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Krishna Miyapuram(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(10/103)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "H1,N1"
+        },
+        {
+          "raw": "(10/103,Jayshree S Sheth Learning Theatre)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "CS 614",
+    "name": "Advanced Algorithms",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Neeldhara Misra(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(7/110)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CS 616",
+    "name": "Distributed Systems and Cloud Computing",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 1.5,
+      "C": 5.0
+    },
+    "instructors": [
+      "Abhishek Bichawat(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(11/206)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "I1"
+        },
+        {
+          "raw": "(10/104)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CS 617",
+    "name": "Computational Complexity Theory",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Balagopal Komarath(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "J1,J2"
+        },
+        {
+          "raw": "(13/125)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 667",
+    "name": "Deep Learning",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Anirban Dasgupta(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1,L2"
+        },
+        {
+          "raw": "(7/208)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 670",
+    "name": "Matrix Methods for Signal Processing, Data Science,\nand Machine Learning",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Shanmuganathan Raman(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "C1,C2"
+        },
+        {
+          "raw": "(11/101)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CS 333",
+    "name": "Ethics of AI",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Manisha Padala(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "K1,K2"
+        },
+        {
+          "raw": "(7/101)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CS 431",
+    "name": "Computer and Network Security",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Abhishek Bichawat(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "H1,H2"
+        },
+        {
+          "raw": "(7/109)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CS 432",
+    "name": "Databases",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Yogesh Meena(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "P1,P2"
+        },
+        {
+          "raw": "(10/103)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CS 436",
+    "name": "History of Computing and its Applications to Domains\n(second half)",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Rajat Moona(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "A1,A2"
+        },
+        {
+          "raw": "(Surendra C Sheth Learning Theatre)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "CS 621",
+    "name": "Ethics of AI (N)",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Manisha Padala(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "K1,K2"
+        },
+        {
+          "raw": "(7/208)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 333",
+    "name": "Microprocessors and Embedded Systems",
+    "credits": {
+      "L": 1.5,
+      "T": 1.0,
+      "P": 3.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Jhuma Saha(I+T+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1"
+        },
+        {
+          "raw": "(Jagdish Patel Learning Theatre)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "G2"
+        },
+        {
+          "raw": "(Jagdish Patel Learning Theatre)"
+        }
+      ],
+      "lab": [
+        {
+          "raw": "C1,C2"
+        },
+        {
+          "raw": "(EE Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "EE 609",
+    "name": "Advanced Signal Processing",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Nithin George(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1,E2"
+        },
+        {
+          "raw": "(7/204)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 612",
+    "name": "Artificial Intelligence",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Uttama Lahiri(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I1,I2"
+        },
+        {
+          "raw": "(7/101)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EE 618",
+    "name": "Microelectronics Lab",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Jhuma Saha(L)"
+    ],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "J2,M2"
+        },
+        {
+          "raw": "(10/104)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "EE 619",
+    "name": "Special Electrical Machines",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Ragavan K(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(11/102)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EE 629",
+    "name": "Power Electronic Converters",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "S Rajendran(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "P1,P2"
+        },
+        {
+          "raw": "(11/102)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "N1"
+        },
+        {
+          "raw": "(11/102)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "EE 639",
+    "name": "Lasers",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Arup Chakraborty(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "N1,N2"
+        },
+        {
+          "raw": "(13/125)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EE 652",
+    "name": "IC Design Laboratory",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Joycee Mekie(L)"
+    ],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [
+        {
+          "raw": "I1"
+        },
+        {
+          "raw": "(Jagdish Patel Learning Theatre)"
+        }
+      ],
+      "lab": [
+        {
+          "raw": "I1,K1"
+        },
+        {
+          "raw": "(10/105)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "EE 653",
+    "name": "Analog IC Design Lab",
+    "credits": {
+      "L": 0.0,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Madhav Pathak(L)"
+    ],
+    "schedule": {
+      "lecture": [],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "D2,F2"
+        },
+        {
+          "raw": "(10/104)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ES 641",
+    "name": "Electronic Instrumentation",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Uttama Lahiri(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "N1,N2"
+        },
+        {
+          "raw": "(13/124)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EE 691-V",
+    "name": "Regulation of Electricity  Sector",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Anand Kumar(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(7/103)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 655",
+    "name": "Medical Imaging Systems",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Himanshu Shekhar(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "J1,J2"
+        },
+        {
+          "raw": "(7/210)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EE 657",
+    "name": "VLSI System Design",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Dinesh Sharma(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "A2,I2"
+        },
+        {
+          "raw": "(11/101)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EE 658",
+    "name": "Memory Device Technologies and Applications",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sandip Lashkare(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "F1,K2"
+        },
+        {
+          "raw": "(10/102)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EE 660",
+    "name": "Power Management IC Design",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Madhav Pathak(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "P1,P2"
+        },
+        {
+          "raw": "(11/206)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 665",
+    "name": "Advanced Transportation Electrification Technology",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Pallavi Bharadwaj(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "H1,H2"
+        },
+        {
+          "raw": "(10/102)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EE 668",
+    "name": "Smart Power Distribution System",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Naran Pindoriya(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "C1,C2"
+        },
+        {
+          "raw": "(7/201)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 677",
+    "name": "Physics inspired Machine Learning for Engineering Design",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Ravi Hegde(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "N1,G2"
+        },
+        {
+          "raw": "(7/105)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "H2"
+        },
+        {
+          "raw": "(13/125)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "EE 665",
+    "name": "Advanced Radiating Systems",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Kamla Prasan Ray(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(11/205)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "J1"
+        },
+        {
+          "raw": "(11/205)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "EE 666",
+    "name": "Fundamentals of Wireless Localization",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Raghunandan M. Rao(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "K1,K2"
+        },
+        {
+          "raw": "(7/103)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EE 669",
+    "name": "Advanced Semiconductor Devices",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Jhuma Saha(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1,L2"
+        },
+        {
+          "raw": "(11/204)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EE 667",
+    "name": "Quantum Error Correction",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Aditya Nema(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "P1,P2"
+        },
+        {
+          "raw": "(7/210)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EE 670",
+    "name": "AI for Electrical Engineering",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Uttama Lahiri(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I1,I2"
+        },
+        {
+          "raw": "(11/102)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 676",
+    "name": "Classical Information Theory",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Aditya Nema(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1,E2"
+        },
+        {
+          "raw": "(7/205)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EH 304",
+    "name": "Drone Data Acquisition, Processing and Interpretation",
+    "credits": {
+      "L": 1.0,
+      "T": 0.0,
+      "P": 2.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Pankaj Khanna(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1"
+        },
+        {
+          "raw": "(7/104)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "J2,M2"
+        },
+        {
+          "raw": "(10/105)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "EH 601 (N)",
+    "name": "Earth Surface Processes in The Anthropocene",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 1.5,
+      "C": 4.0
+    },
+    "instructors": [
+      "Vikrant Jain(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "B1,B2"
+        },
+        {
+          "raw": "(7/103)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "H1"
+        },
+        {
+          "raw": "(10/102)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "EH 602",
+    "name": "River Morphology and Ecology",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Vikrant Jain(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "B1,B2"
+        },
+        {
+          "raw": "(7/103)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EH 604",
+    "name": "Quantitative Geomorphology",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "R. N. Singh(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1,L2"
+        },
+        {
+          "raw": "(11/206)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EH 608",
+    "name": "Biodiversity Conservation and Sustainable Development",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "C. N. Pandey(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1,L2"
+        },
+        {
+          "raw": "(7/107)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EH 610",
+    "name": "Engineering Seismology and Seismic Hazard Analysis",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Utsav Mannu(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "F1,F2"
+        },
+        {
+          "raw": "(7/210)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EH 612",
+    "name": "Ocean and Global Change",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Pankaj Khanna(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1,E2"
+        },
+        {
+          "raw": "(10/103)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EH 614",
+    "name": "Physics of the Lithosphere",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Utsav Mannu(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "N1,N2"
+        },
+        {
+          "raw": "(7/210)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EH 621",
+    "name": "Climate of the Past",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sonal Khanolkar(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "K1"
+        },
+        {
+          "raw": "(11/204)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "J2,L1"
+        },
+        {
+          "raw": "(7/206)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "EH 622",
+    "name": "Fluid Flow and Reactions in Reservoir Rocks",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Achyut Mishra(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(7/201)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EH 623",
+    "name": "Stratigraphic Evolution of Indian Continent",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sonal Khanolkar(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "P1,P2"
+        },
+        {
+          "raw": "(7/101)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "B1"
+        },
+        {
+          "raw": "(7/101)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "EH 629",
+    "name": "Ceramics in Archaeology",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "V N Prabhakar(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(11/204)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EH 630",
+    "name": "Harappan Civilization",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "V N Prabhakar(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(7/202)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EH 632",
+    "name": "Fundamentals of Structural Geology",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Manab Mukherjee(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "K1"
+        },
+        {
+          "raw": "(13/125)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "I2,M1"
+        },
+        {
+          "raw": "(EH Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "EH 634",
+    "name": "Dynamic Earth Surface and Nature Hazards",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "TBD4(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G2"
+        },
+        {
+          "raw": "(7/104)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "I2,M1"
+        },
+        {
+          "raw": "(EH Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "EH 691-II",
+    "name": "Atmopheric Physics",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "P. C. Pandey(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "C1,C2"
+        },
+        {
+          "raw": "(13/125)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EH 691-X",
+    "name": "Interpreting animals in the Human past",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sharada CV(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I1,I2"
+        },
+        {
+          "raw": "(11/204)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "EH 691-XI",
+    "name": "Special Topics in Earth Sciences: Stable Isotopes in Earth Systems",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "R. D. Deshpande(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "F1,F2"
+        },
+        {
+          "raw": "(13/125)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 419",
+    "name": "Numerical Methods for Engineers",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Ravi Ayyagari(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I1,I2"
+        },
+        {
+          "raw": "(7/104)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "J1"
+        },
+        {
+          "raw": "(10/105)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 646",
+    "name": "Elastodynamics and Vibrations",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Jayaprakash K. R.(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(7/101)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 648",
+    "name": "Nonlinear Dynamics and Vibrations",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Jayaprakash K. R.(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1,D2"
+        },
+        {
+          "raw": "(7/101)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 613",
+    "name": "Modern Control Theory",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Madhu Vadali(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1,E2"
+        },
+        {
+          "raw": "(11/204)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 656",
+    "name": "Human Robot Interaction",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Vineet Vashista(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(7/105)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 671",
+    "name": "Mechanics of Composite Materials",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Harini Subramanian(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1,E2"
+        },
+        {
+          "raw": "(7/207)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ME 462",
+    "name": "Integrated Design and Manufacturing",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Rakesh Singhai(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "N1"
+        },
+        {
+          "raw": "(7/107)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "K1,H1"
+        },
+        {
+          "raw": "(7/107)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ME 628",
+    "name": "Advanced Fluid Mechanics",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Vinod Narayanan(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(7/102)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "H2"
+        },
+        {
+          "raw": "(7/202)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 632",
+    "name": "Energy Systems",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Atul Bhargav(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "F1,F2"
+        },
+        {
+          "raw": "(Jagdish Patel Learning Theatre)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ME 691-X",
+    "name": "Special Topics in Mechanical Engineering: Mechanics of Elastic Rods",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Harmeet Singh(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(7/106)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ME 691-XIX",
+    "name": "Special Topics in Mechanical Engineering: Introduction to Computational Solid Mechanics",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Harkirat Singh(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "F1,F2"
+        },
+        {
+          "raw": "(7/109)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "J2"
+        },
+        {
+          "raw": "(7/109)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ME 691-XX",
+    "name": "Special Topics in Mechanical Engineering: Introduction to Conduction and Radiation Heat Transfer",
+    "credits": {
+      "L": 3.0,
+      "T": 1.5,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Lokesh Malik(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "M1,M2"
+        },
+        {
+          "raw": "(7/205)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "J1"
+        },
+        {
+          "raw": "(7/201)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ME 691-XXI",
+    "name": "Special Topics in Mechanical Engineering: Mechatronics Design Studio",
+    "credits": {
+      "L": 1.5,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Madhu Vadali(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "D1"
+        },
+        {
+          "raw": "(Makers Bhavan)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "K1,H1"
+        },
+        {
+          "raw": "(Makers Bhavan)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ME 691-XIV",
+    "name": "Special Topics in Mechanical Engineering: Mathematical Tools for Mechanical Engineers",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Uddipta Ghosh(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1,L2"
+        },
+        {
+          "raw": "(7/207)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "H1"
+        },
+        {
+          "raw": "(7/207)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ME 691-XV",
+    "name": "Special Topics in Mechanical Engineering: Advanced Nonlinear Dynamics",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Jayaprakash K. R.(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I1,I2"
+        },
+        {
+          "raw": "(7/102)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ME 643",
+    "name": "Aircraft and Rocket Propulsion",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Dilip Sundaram(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "P1,P2"
+        },
+        {
+          "raw": "(7/202)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ME 647",
+    "name": "Vapor Liquid Phase Change Phenomena",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Soumyadip Sett(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "I1,I2"
+        },
+        {
+          "raw": "(7/207)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ME 649",
+    "name": "Mathematical Tools for Mechanical Engineers-II",
+    "credits": {
+      "L": 3.0,
+      "T": 1.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Uddipta Ghosh(I+T)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "L1,L2"
+        },
+        {
+          "raw": "(7/207)"
+        }
+      ],
+      "tutorial": [
+        {
+          "raw": "H1"
+        },
+        {
+          "raw": "(7/207)"
+        }
+      ],
+      "lab": []
+    }
+  },
+  {
+    "code": "ME 692-VII",
+    "name": "Special Topics in Mechanical Engineering: Data and Observer Design (first half)",
+    "credits": {
+      "L": 1.0,
+      "T": 0.0,
+      "P": 3.0,
+      "C": 2.0
+    },
+    "instructors": [
+      "Ravi Banavar(I+L)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "J1"
+        },
+        {
+          "raw": "(7/206)"
+        }
+      ],
+      "tutorial": [],
+      "lab": [
+        {
+          "raw": "K2,L2"
+        },
+        {
+          "raw": "(ME Lab)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "MSE 355",
+    "name": "Surface Engineering",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Sriharitha Rowthu(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "N1,N2"
+        },
+        {
+          "raw": "(11/204)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MSE 404",
+    "name": "Diffraction Methods for Structure and Stress Analysis",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Pradipta Ghosh(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "N1,N2"
+        },
+        {
+          "raw": "(11/205)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MSE 603",
+    "name": "Thin Film Processing and Characterization",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Emila Panda(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "A1,A2"
+        },
+        {
+          "raw": "(11/205)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MSE 605",
+    "name": "Biomaterials for Tissue Regeneration",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Superb Misra(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "E1,J2"
+        },
+        {
+          "raw": "(11/205)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MSE 621",
+    "name": "Process Plant Design \u2013 How to Set Up a Process Industry",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Surya P Mehrotra(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "F1,F2"
+        },
+        {
+          "raw": "(7/106)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "ES 623 (N)",
+    "name": "Biomolecular Materials Science",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Abhijit Mishra(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "G1,G2"
+        },
+        {
+          "raw": "(7/106)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  },
+  {
+    "code": "MSE 634",
+    "name": "Semiconductor Materials and Fabrication Process",
+    "credits": {
+      "L": 3.0,
+      "T": 0.0,
+      "P": 0.0,
+      "C": 4.0
+    },
+    "instructors": [
+      "Anagh Bhaumik(I)"
+    ],
+    "schedule": {
+      "lecture": [
+        {
+          "raw": "H1,H2"
+        },
+        {
+          "raw": "(11/102)"
+        }
+      ],
+      "tutorial": [],
+      "lab": []
+    }
+  }
+]
