@@ -35,21 +35,25 @@ const ProfilePage = () => {
   const [profileData, setProfileData] = useState(null);
   const [editedData, setEditedData] = useState(null);
   const [courseSearch, setCourseSearch] = useState("");
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    setLoading(true);
     let foundUser = null;
-    const profileId = id === 'me' ? currentUser?.id : parseInt(id);
+    
+    const profileId = id === 'me' ? currentUser?.id : id;
 
-    if (profileId === currentUser?.id) {
+    if (profileId && currentUser && profileId === currentUser.id) {
       foundUser = currentUser;
     } else {
-      foundUser = searchUsers('').find(u => u.id === profileId) || 
-                 friends.find(f => f.id === profileId);
+      const allPossibleUsers = searchUsers('') || [];
+      foundUser = allPossibleUsers.find(u => String(u.id) === String(profileId)) || 
+                  friends.find(f => String(f.id) === String(profileId));
     }
 
     if (foundUser) {
       const data = {
-        name: foundUser.name || "",
+        name: foundUser.name || "Student",
         rollNumber: foundUser.rollNumber || "23BCE000",
         degree: foundUser.degree || "B.Tech",
         branch: foundUser.branch || "Computer Science Engineering",
@@ -69,9 +73,10 @@ const ProfilePage = () => {
       setProfileData(data);
       setEditedData(data);
     }
+    setLoading(false);
   }, [id, friends, searchUsers, currentUser]);
 
-  const isOwnProfile = id === 'me' || parseInt(id) === currentUser?.id;
+  const isOwnProfile = id === 'me' || String(id) === String(currentUser?.id);
 
   const userCourseList = (allCourses || []).filter(c => 
     (isEditing ? editedData?.courses : profileData?.courses)?.includes(c.code)
@@ -93,7 +98,29 @@ const ProfilePage = () => {
     toast.success("Academic profile updated!");
   };
 
-  if (!profileData) return null;
+  if (loading) {
+    return (
+      <div className="min-h-screen flex flex-col items-center justify-center bg-slate-50 dark:bg-slate-950">
+        <div className="w-12 h-12 border-4 border-blue-600 border-t-transparent rounded-full animate-spin mb-4" />
+        <p className="text-xs font-black uppercase tracking-widest text-slate-400">Loading Profile...</p>
+      </div>
+    );
+  }
+
+  if (!profileData) {
+    return (
+      <div className="min-h-screen flex flex-col items-center justify-center bg-slate-50 dark:bg-slate-950 p-6">
+        <div className="bg-white dark:bg-slate-900 p-12 rounded-[40px] shadow-xl text-center border border-slate-100 dark:border-slate-800">
+           <Users size={48} className="mx-auto text-slate-300 mb-6" />
+           <h2 className="text-2xl font-black text-slate-900 dark:text-white mb-2">User Not Found</h2>
+           <p className="text-slate-500 font-bold mb-8">The student profile you are looking for doesn't exist.</p>
+           <button onClick={() => navigate('/')} className="px-8 py-4 bg-blue-600 text-white rounded-2xl font-black text-xs uppercase tracking-widest">
+              Back to Dashboard
+           </button>
+        </div>
+      </div>
+    );
+  }
 
   const AcademicDropdown = ({ label, icon: Icon, field, options }) => (
     <div className="space-y-2">
@@ -208,13 +235,13 @@ const ProfilePage = () => {
                   <div className="flex items-center gap-2">
                     <MapPin size={16} className="text-blue-500" />
                     {isEditing ? (
-                      <input className="bg-slate-50 dark:bg-slate-800 rounded-lg px-2 py-1 outline-none" value={editedData.location || ""} onChange={e => setEditedData({...editedData, location: e.target.value})} />
+                      <input className="bg-slate-50 dark:bg-slate-800 rounded-lg px-2 py-1 outline-none text-slate-700 dark:text-slate-200" value={editedData.location || ""} onChange={e => setEditedData({...editedData, location: e.target.value})} />
                     ) : profileData.location}
                   </div>
                   <div className="flex items-center gap-2">
                     <Fingerprint size={16} className="text-purple-500" />
                     Roll: {isEditing ? (
-                      <input className="bg-slate-50 dark:bg-slate-800 rounded-lg px-2 py-1 outline-none w-24" value={editedData.rollNumber || ""} onChange={e => setEditedData({...editedData, rollNumber: e.target.value})} />
+                      <input className="bg-slate-50 dark:bg-slate-800 rounded-lg px-2 py-1 outline-none w-24 text-slate-700 dark:text-slate-200" value={editedData.rollNumber || ""} onChange={e => setEditedData({...editedData, rollNumber: e.target.value})} />
                     ) : profileData.rollNumber}
                   </div>
                 </div>
@@ -277,7 +304,7 @@ const ProfilePage = () => {
                   <div className="mb-8 relative">
                     <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
                     <input 
-                      className="w-full pl-12 pr-6 py-4 bg-slate-50 dark:bg-slate-800 rounded-2xl outline-none focus:ring-2 ring-blue-500/20 font-bold text-sm border-none"
+                      className="w-full pl-12 pr-6 py-4 bg-slate-50 dark:bg-slate-800 rounded-2xl outline-none focus:ring-2 ring-blue-500/20 font-bold text-sm border-none text-slate-700 dark:text-slate-200"
                       placeholder="Search and add courses..."
                       value={courseSearch || ""}
                       onChange={(e) => setCourseSearch(e.target.value)}
@@ -338,7 +365,7 @@ const ProfilePage = () => {
                       <Award size={16} className="text-amber-500 mt-0.5 shrink-0" />
                       {isEditing ? (
                         <div className="flex items-center gap-2 w-full">
-                          <input className="bg-slate-50 dark:bg-slate-800 text-xs font-bold p-2 rounded-xl w-full outline-none" value={ach || ""} onChange={(e) => {
+                          <input className="bg-slate-50 dark:bg-slate-800 text-xs font-bold p-2 rounded-xl w-full outline-none text-slate-700 dark:text-slate-200" value={ach || ""} onChange={(e) => {
                             const newAch = [...editedData.achievements];
                             newAch[i] = e.target.value;
                             setEditedData({...editedData, achievements: newAch});
