@@ -19,7 +19,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     
-    const allowedDomain = "@yourinstitute.edu";
+    const allowedDomain = "@iitgn.ac.in";
     if (!email.toLowerCase().endsWith(allowedDomain)) {
       alert(`Please use your official ${allowedDomain} email address.`);
       return;
