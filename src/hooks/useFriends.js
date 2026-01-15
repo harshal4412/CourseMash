@@ -10,7 +10,10 @@ export const useFriends = () => {
   const [loading, setLoading] = useState(true);
 
   const fetchData = useCallback(async () => {
-    if (!user?.uid) return;
+    if (!user?.uid) {
+      setLoading(false);
+      return;
+    }
     
     try {
       setLoading(true);
@@ -19,7 +22,9 @@ export const useFriends = () => {
         id: d.id, 
         ...d.data() 
       }));
+      
       setAllUsers(usersList);
+      window.allUsers = usersList;
 
       const myDoc = await getDoc(doc(db, 'users', user.uid));
       if (myDoc.exists()) {
@@ -37,13 +42,12 @@ export const useFriends = () => {
     fetchData();
   }, [fetchData]);
 
-const searchUsers = useCallback((searchTerm) => {
+  const searchUsers = useCallback((searchTerm) => {
     if (!searchTerm || !allUsers.length) return [];
-    const lower = searchTerm.toLowerCase();
+    const lower = searchTerm.toLowerCase().trim();
     
     return allUsers.filter(u => 
       u.id !== user?.uid && (
-        // Searching 'name' because that's what is in your Firestore screenshot
         u.name?.toLowerCase().includes(lower) || 
         u.email?.toLowerCase().includes(lower) ||
         u.rollNumber?.toLowerCase().includes(lower)
@@ -81,9 +85,20 @@ const searchUsers = useCallback((searchTerm) => {
     
     if (!friend?.courses || !me?.courses) return [];
 
-    const myCourseCodes = me.courses.map(c => c.code);
-    return friend.courses.filter(c => myCourseCodes.includes(c.code));
+    const myCourseCodes = me.courses.map(c => typeof c === 'string' ? c : c.code);
+    return friend.courses.filter(c => {
+      const code = typeof c === 'string' ? c : c.code;
+      return myCourseCodes.includes(code);
+    });
   }, [allUsers, user?.uid]);
 
-  return { friends, loading, addFriend, removeFriend, searchUsers, getCommonCourses };
+  return { 
+    friends, 
+    loading, 
+    addFriend, 
+    removeFriend, 
+    searchUsers, 
+    getCommonCourses,
+    fetchData 
+  };
 };
