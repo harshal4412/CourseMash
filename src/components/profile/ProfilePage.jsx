@@ -8,7 +8,7 @@ import {
   Hash, GraduationCap, Building2, Fingerprint, ChevronDown
 } from 'lucide-react';
 import { doc, getDoc, updateDoc } from 'firebase/firestore';
-import { db } from '../../firebase';
+import { db } from '../../lib/firebase';
 import { useCourses } from '../../hooks/useCourses';
 import { useAuth } from '../../contexts/AuthContext';
 import toast from 'react-hot-toast';
