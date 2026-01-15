@@ -45,34 +45,43 @@ export const AuthProvider = ({ children }) => {
           courses: [],
           createdAt: serverTimestamp()
         });
+        console.log("New user document created for:", firebaseUser.email);
       }
     } catch (error) {
-      console.error("Background Sync Error:", error);
+      console.error("Firestore Sync Error:", error.message);
     }
   };
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       if (currentUser) {
-        setUser({
-          ...currentUser,
-          id: currentUser.uid
-        });
+        const userData = {
+          uid: currentUser.uid,
+          id: currentUser.uid,
+          email: currentUser.email,
+          displayName: currentUser.displayName,
+          photoURL: currentUser.photoURL
+        };
+        
+        setUser(userData);
+        window.currentUser = userData; 
         
         syncUserToFirestore(currentUser);
       } else {
         setUser(null);
+        window.currentUser = null;
       }
       setLoading(false);
     });
-    return unsubscribe;
+
+    return () => unsubscribe();
   }, []);
 
   const register = async ({ email, password, name }) => {
     try {
       const res = await createUserWithEmailAndPassword(auth, email, password);
       await updateProfile(res.user, { displayName: name });
-      syncUserToFirestore(res.user);
+      await syncUserToFirestore(res.user);
       return { success: true, user: res.user };
     } catch (error) {
       return { success: false, error: error.message };
@@ -82,14 +91,22 @@ export const AuthProvider = ({ children }) => {
   const login = async ({ email, password }) => {
     try {
       const res = await signInWithEmailAndPassword(auth, email, password);
-      syncUserToFirestore(res.user);
+      await syncUserToFirestore(res.user);
       return { success: true, user: res.user };
     } catch (error) {
       return { success: false, error: error.message };
     }
   };
 
-  const logout = () => signOut(auth);
+  const logout = async () => {
+    try {
+      await signOut(auth);
+      window.currentUser = null;
+      window.allUsers = [];
+    } catch (error) {
+      console.error("Logout Error:", error);
+    }
+  };
 
   return (
     <AuthContext.Provider value={{ user, login, register, logout, loading }}>
