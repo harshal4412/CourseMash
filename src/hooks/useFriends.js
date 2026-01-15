@@ -10,78 +10,75 @@ export const useFriends = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (!user) return;
+    if (!user?.uid) {
+      setLoading(false);
+      return;
+    }
 
-    const unsubscribe = onSnapshot(doc(db, 'users', user.uid), (docSnap) => {
-      if (docSnap.exists()) {
-        const userData = docSnap.data();
-        const friendIds = userData.friends || [];
-        
-        getDocs(collection(db, 'users')).then(querySnapshot => {
-          const users = querySnapshot.docs.map(d => ({ id: d.id, ...d.data() }));
-          setAllUsers(users);
-          setFriends(users.filter(u => friendIds.includes(u.id)));
-        });
+    const userRef = doc(db, 'users', user.uid);
+    
+    const unsubscribe = onSnapshot(userRef, async (docSnap) => {
+      try {
+        if (docSnap.exists()) {
+          const userData = docSnap.data();
+          const friendIds = userData.friends || [];
+          
+          const querySnapshot = await getDocs(collection(db, 'users'));
+          const usersList = querySnapshot.docs.map(d => ({ 
+            id: d.id, 
+            ...d.data() 
+          }));
+          
+          setAllUsers(usersList);
+          setFriends(usersList.filter(u => friendIds.includes(u.id)));
+        }
+      } catch (err) {
+        console.error("Internal hook error:", err);
+      } finally {
+        setLoading(false);
       }
+    }, (error) => {
+      console.error("Subscription blocked by rules:", error);
       setLoading(false);
     });
 
     return () => unsubscribe();
-  }, [user]);
+  }, [user?.uid]);
 
   const searchUsers = useCallback((searchTerm) => {
-    if (!searchTerm) return [];
+    if (!searchTerm || !allUsers.length) return [];
     const lowerQuery = searchTerm.toLowerCase();
     return allUsers.filter(u => 
       u.id !== user?.uid && (
         u.name?.toLowerCase().includes(lowerQuery) || 
-        u.email?.toLowerCase().includes(lowerQuery) ||
-        u.rollNumber?.toLowerCase().includes(lowerQuery)
+        u.email?.toLowerCase().includes(lowerQuery)
       )
     );
-  }, [allUsers, user]);
+  }, [allUsers, user?.uid]);
 
   const addFriend = useCallback(async (friendId) => {
-    if (!user) return { success: false, error: 'Must be logged in' };
-    
+    if (!user?.uid) return { success: false, error: 'Auth required' };
     try {
-      const userRef = doc(db, 'users', user.uid);
-      await updateDoc(userRef, {
+      await updateDoc(doc(db, 'users', user.uid), {
         friends: arrayUnion(friendId)
       });
-      return { success: true, message: 'Added to your circle' };
+      return { success: true };
     } catch (error) {
       return { success: false, error: error.message };
     }
-  }, [user]);
+  }, [user?.uid]);
 
   const removeFriend = useCallback(async (friendId) => {
-    if (!user) return { success: false, error: 'Must be logged in' };
-
+    if (!user?.uid) return { success: false, error: 'Auth required' };
     try {
-      const userRef = doc(db, 'users', user.uid);
-      await updateDoc(userRef, {
+      await updateDoc(doc(db, 'users', user.uid), {
         friends: arrayRemove(friendId)
       });
-      return { success: true, message: 'Removed from circle' };
+      return { success: true };
     } catch (error) {
       return { success: false, error: error.message };
     }
-  }, [user]);
+  }, [user?.uid]);
 
-  const getCommonCourses = useCallback((friendId, friendCourses = []) => {
-    if (!user || !friendCourses) return [];
-    
-    const myCourses = allUsers.find(u => u.id === user.uid)?.courses || [];
-    return friendCourses.filter(code => myCourses.includes(code));
-  }, [allUsers, user]);
-
-  return {
-    friends,
-    loading,
-    addFriend,
-    removeFriend,
-    searchUsers,
-    getCommonCourses
-  };
+  return { friends, loading, addFriend, removeFriend, searchUsers };
 };
