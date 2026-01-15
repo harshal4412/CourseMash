@@ -6,7 +6,8 @@ import {
   onAuthStateChanged,
   updateProfile 
 } from "firebase/auth";
-import { auth } from "../lib/firebase";
+import { doc, getDoc, setDoc, serverTimestamp } from 'firebase/firestore';
+import { auth, db } from "../lib/firebase";
 
 export const AuthContext = createContext({});
 
@@ -14,9 +15,52 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
+  const syncUserToFirestore = async (firebaseUser) => {
+    if (!firebaseUser) return;
+
+    const userRef = doc(db, 'users', firebaseUser.uid);
+    try {
+      const userSnap = await getDoc(userRef);
+
+      if (!userSnap.exists()) {
+        await setDoc(userRef, {
+          uid: firebaseUser.uid,
+          name: firebaseUser.displayName || "New Student",
+          email: firebaseUser.email,
+          photoURL: firebaseUser.photoURL || "",
+          rollNumber: "",
+          degree: "B.Tech",
+          branch: "Computer Science Engineering",
+          specialization: "None",
+          year: "1",
+          bio: "IIT Gandhinagar Student",
+          location: "Palaj, Gandhinagar",
+          socials: {
+            github: "",
+            linkedin: "",
+            instagram: ""
+          },
+          achievements: [],
+          courses: [],
+          createdAt: serverTimestamp()
+        });
+      }
+    } catch (error) {
+      console.error("Error syncing user to Firestore:", error);
+    }
+  };
+
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
-      setUser(currentUser);
+    const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
+      if (currentUser) {
+        await syncUserToFirestore(currentUser);
+        setUser({
+          ...currentUser,
+          id: currentUser.uid
+        });
+      } else {
+        setUser(null);
+      }
       setLoading(false);
     });
     return unsubscribe;
@@ -26,6 +70,7 @@ export const AuthProvider = ({ children }) => {
     try {
       const res = await createUserWithEmailAndPassword(auth, email, password);
       await updateProfile(res.user, { displayName: name });
+      await syncUserToFirestore(res.user);
       return { success: true, user: res.user };
     } catch (error) {
       return { success: false, error: error.message };
@@ -35,6 +80,7 @@ export const AuthProvider = ({ children }) => {
   const login = async ({ email, password }) => {
     try {
       const res = await signInWithEmailAndPassword(auth, email, password);
+      await syncUserToFirestore(res.user);
       return { success: true, user: res.user };
     } catch (error) {
       return { success: false, error: error.message };
