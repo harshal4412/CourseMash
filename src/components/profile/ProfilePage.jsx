@@ -8,8 +8,7 @@ import {
   Hash, GraduationCap, Building2, Fingerprint, ChevronDown, Loader2
 } from 'lucide-react';
 import { doc, getDoc, updateDoc } from 'firebase/firestore';
-import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
-import { db, storage } from '../../lib/firebase';
+import { db } from '../../lib/firebase';
 import { useCourses } from '../../hooks/useCourses';
 import { useAuth } from '../../contexts/AuthContext';
 import toast from 'react-hot-toast';
@@ -107,12 +106,30 @@ const ProfilePage = () => {
 
     try {
       setUploading(true);
-      const storageRef = ref(storage, `profiles/${currentUser.uid}`);
-      await uploadBytes(storageRef, file);
-      const downloadURL = await getDownloadURL(storageRef);
       
-      setEditedData({ ...editedData, photoURL: downloadURL });
-      toast.success("Image uploaded! Don't forget to save changes.");
+      const formData = new FormData();
+      formData.append("file", file);
+      formData.append("upload_preset", import.meta.env.VITE_CLOUDINARY_UPLOAD_PRESET);
+
+      const response = await fetch(
+        `https://api.cloudinary.com/v1_1/${import.meta.env.VITE_CLOUDINARY_CLOUD_NAME}/image/upload`,
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
+
+      if (!response.ok) throw new Error("Upload failed");
+
+      const data = await response.json();
+      
+      const optimizedUrl = data.secure_url.replace(
+        '/upload/',
+        '/upload/c_fill,g_face,w_400,h_400/'
+      );
+      
+      setEditedData({ ...editedData, photoURL: optimizedUrl });
+      toast.success("Image uploaded! Click Save to confirm.");
     } catch (error) {
       console.error(error);
       toast.error("Failed to upload image");
@@ -158,7 +175,7 @@ const ProfilePage = () => {
         <div className="bg-white dark:bg-slate-900 p-12 rounded-[40px] shadow-xl text-center border border-slate-100 dark:border-slate-800 max-w-md">
            <Users size={48} className="mx-auto text-slate-300 mb-6" />
            <h2 className="text-2xl font-black text-slate-900 dark:text-white mb-2">User Not Found</h2>
-           <p className="text-slate-500 font-bold mb-8">This student hasn't set up their academic profile yet or the ID is incorrect.</p>
+           <p className="text-slate-500 font-bold mb-8">This student hasn't set up their academic profile yet.</p>
            <button onClick={() => navigate('/')} className="w-full px-8 py-4 bg-blue-600 text-white rounded-2xl font-black text-xs uppercase tracking-widest">
              Back to Dashboard
            </button>
@@ -255,7 +272,7 @@ const ProfilePage = () => {
                 />
                 <div 
                   onClick={handleImageClick}
-                  className={`w-48 h-48 bg-gradient-to-tr from-blue-600 to-indigo-600 rounded-[56px] flex items-center justify-center text-7xl font-black text-white shadow-2xl ring-8 ring-white dark:ring-slate-900 overflow-hidden ${isEditing && isOwnProfile ? 'cursor-pointer' : ''}`}
+                  className={`w-48 h-48 bg-gradient-to-tr from-blue-600 to-indigo-600 rounded-[56px] flex items-center justify-center text-7xl font-black text-white shadow-2xl ring-8 ring-white dark:ring-slate-900 overflow-hidden ${isEditing && isOwnProfile ? 'cursor-pointer hover:scale-[1.02] transition-transform' : ''}`}
                 >
                   {uploading ? (
                     <Loader2 className="animate-spin text-white" size={40} />
