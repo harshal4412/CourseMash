@@ -28,7 +28,7 @@ export const AuthProvider = ({ children }) => {
           name: firebaseUser.displayName || "New Student",
           email: firebaseUser.email,
           photoURL: firebaseUser.photoURL || "",
-          rollNumber: "",
+          rollNumber: "Not Set",
           degree: "B.Tech",
           branch: "Computer Science Engineering",
           specialization: "None",
@@ -40,24 +40,26 @@ export const AuthProvider = ({ children }) => {
             linkedin: "",
             instagram: ""
           },
+          friends: [],
           achievements: [],
           courses: [],
           createdAt: serverTimestamp()
         });
       }
     } catch (error) {
-      console.error("Error syncing user to Firestore:", error);
+      console.error("Background Sync Error:", error);
     }
   };
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       if (currentUser) {
-        await syncUserToFirestore(currentUser);
         setUser({
           ...currentUser,
           id: currentUser.uid
         });
+        
+        syncUserToFirestore(currentUser);
       } else {
         setUser(null);
       }
@@ -70,7 +72,7 @@ export const AuthProvider = ({ children }) => {
     try {
       const res = await createUserWithEmailAndPassword(auth, email, password);
       await updateProfile(res.user, { displayName: name });
-      await syncUserToFirestore(res.user);
+      syncUserToFirestore(res.user);
       return { success: true, user: res.user };
     } catch (error) {
       return { success: false, error: error.message };
@@ -80,7 +82,7 @@ export const AuthProvider = ({ children }) => {
   const login = async ({ email, password }) => {
     try {
       const res = await signInWithEmailAndPassword(auth, email, password);
-      await syncUserToFirestore(res.user);
+      syncUserToFirestore(res.user);
       return { success: true, user: res.user };
     } catch (error) {
       return { success: false, error: error.message };
