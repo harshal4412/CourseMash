@@ -1,5 +1,5 @@
 import { useState, useCallback, useEffect } from 'react';
-import { collection, query, getDocs, doc, updateDoc, arrayUnion, arrayRemove, onSnapshot } from 'firebase/firestore';
+import { collection, getDocs, doc, updateDoc, arrayUnion, arrayRemove, getDoc } from 'firebase/firestore';
 import { db } from '../lib/firebase';
 import { useAuth } from '../contexts/AuthContext';
 
@@ -9,76 +9,81 @@ export const useFriends = () => {
   const [allUsers, setAllUsers] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    if (!user?.uid) {
-      setLoading(false);
-      return;
-    }
-
-    const userRef = doc(db, 'users', user.uid);
+  const fetchData = useCallback(async () => {
+    if (!user?.uid) return;
     
-    const unsubscribe = onSnapshot(userRef, async (docSnap) => {
-      try {
-        if (docSnap.exists()) {
-          const userData = docSnap.data();
-          const friendIds = userData.friends || [];
-          
-          const querySnapshot = await getDocs(collection(db, 'users'));
-          const usersList = querySnapshot.docs.map(d => ({ 
-            id: d.id, 
-            ...d.data() 
-          }));
-          
-          setAllUsers(usersList);
-          setFriends(usersList.filter(u => friendIds.includes(u.id)));
-        }
-      } catch (err) {
-        console.error("Internal hook error:", err);
-      } finally {
-        setLoading(false);
-      }
-    }, (error) => {
-      console.error("Subscription blocked by rules:", error);
-      setLoading(false);
-    });
+    try {
+      setLoading(true);
+      const querySnapshot = await getDocs(collection(db, 'users'));
+      const usersList = querySnapshot.docs.map(d => ({ 
+        id: d.id, 
+        ...d.data() 
+      }));
+      setAllUsers(usersList);
 
-    return () => unsubscribe();
+      const myDoc = await getDoc(doc(db, 'users', user.uid));
+      if (myDoc.exists()) {
+        const friendIds = myDoc.data().friends || [];
+        setFriends(usersList.filter(u => friendIds.includes(u.id)));
+      }
+    } catch (error) {
+      console.error("Firestore Fetch Error:", error);
+    } finally {
+      setLoading(false);
+    }
   }, [user?.uid]);
 
-  const searchUsers = useCallback((searchTerm) => {
+  useEffect(() => {
+    fetchData();
+  }, [fetchData]);
+
+const searchUsers = useCallback((searchTerm) => {
     if (!searchTerm || !allUsers.length) return [];
-    const lowerQuery = searchTerm.toLowerCase();
+    const lower = searchTerm.toLowerCase();
+    
     return allUsers.filter(u => 
       u.id !== user?.uid && (
-        u.name?.toLowerCase().includes(lowerQuery) || 
-        u.email?.toLowerCase().includes(lowerQuery)
+        // Searching 'name' because that's what is in your Firestore screenshot
+        u.name?.toLowerCase().includes(lower) || 
+        u.email?.toLowerCase().includes(lower) ||
+        u.rollNumber?.toLowerCase().includes(lower)
       )
     );
   }, [allUsers, user?.uid]);
 
-  const addFriend = useCallback(async (friendId) => {
-    if (!user?.uid) return { success: false, error: 'Auth required' };
+  const addFriend = async (friendId) => {
     try {
       await updateDoc(doc(db, 'users', user.uid), {
         friends: arrayUnion(friendId)
       });
+      await fetchData();
       return { success: true };
-    } catch (error) {
-      return { success: false, error: error.message };
+    } catch (e) {
+      return { success: false, error: e.message };
     }
-  }, [user?.uid]);
+  };
 
-  const removeFriend = useCallback(async (friendId) => {
-    if (!user?.uid) return { success: false, error: 'Auth required' };
+  const removeFriend = async (friendId) => {
     try {
       await updateDoc(doc(db, 'users', user.uid), {
         friends: arrayRemove(friendId)
       });
+      await fetchData();
       return { success: true };
-    } catch (error) {
-      return { success: false, error: error.message };
+    } catch (e) {
+      return { success: false, error: e.message };
     }
-  }, [user?.uid]);
+  };
 
-  return { friends, loading, addFriend, removeFriend, searchUsers };
+  const getCommonCourses = useCallback((friendId) => {
+    const friend = allUsers.find(u => u.id === friendId);
+    const me = allUsers.find(u => u.id === user?.uid);
+    
+    if (!friend?.courses || !me?.courses) return [];
+
+    const myCourseCodes = me.courses.map(c => c.code);
+    return friend.courses.filter(c => myCourseCodes.includes(c.code));
+  }, [allUsers, user?.uid]);
+
+  return { friends, loading, addFriend, removeFriend, searchUsers, getCommonCourses };
 };
