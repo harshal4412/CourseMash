@@ -72,6 +72,7 @@ const AnimatedRoutes = () => {
           </ProtectedRoute>
         } />
 
+        {/* Standardized to /profile/:id to match search navigation */}
         <Route path="/profile/:id" element={
           <ProtectedRoute>
             <PageWrapper><ProfilePage /></PageWrapper>

@@ -1,14 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   User, Mail, MapPin, BookOpen, Calendar, Edit3, 
   Check, X, Github, Linkedin, Instagram, Globe, Award, 
   ChevronLeft, Camera, Plus, Trash2, Users, Layers, Search,
-  Hash, GraduationCap, Building2, Fingerprint, ChevronDown
+  Hash, GraduationCap, Building2, Fingerprint, ChevronDown, Loader2
 } from 'lucide-react';
 import { doc, getDoc, updateDoc } from 'firebase/firestore';
-import { db } from '../../lib/firebase';
+import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
+import { db, storage } from '../../lib/firebase';
 import { useCourses } from '../../hooks/useCourses';
 import { useAuth } from '../../contexts/AuthContext';
 import toast from 'react-hot-toast';
@@ -28,6 +29,7 @@ const SPECIALIZATIONS = ["None", "Major", "Minor", "Honours"];
 const ProfilePage = () => {
   const { id } = useParams();
   const navigate = useNavigate();
+  const fileInputRef = useRef(null);
   const { user: currentUser } = useAuth();
   const { allCourses } = useCourses();
 
@@ -36,6 +38,7 @@ const ProfilePage = () => {
   const [editedData, setEditedData] = useState(null);
   const [courseSearch, setCourseSearch] = useState("");
   const [loading, setLoading] = useState(true);
+  const [uploading, setUploading] = useState(false);
 
   useEffect(() => {
     const fetchProfile = async () => {
@@ -55,6 +58,7 @@ const ProfilePage = () => {
           const normalizedData = {
             id: userDoc.id,
             name: data.name || data.displayName || "Student",
+            photoURL: data.photoURL || null,
             rollNumber: data.rollNumber || "Not Set",
             degree: data.degree || "B.Tech",
             branch: data.branch || "Computer Science Engineering",
@@ -85,6 +89,37 @@ const ProfilePage = () => {
   }, [id, currentUser]);
 
   const isOwnProfile = id === 'me' || id === currentUser?.uid;
+
+  const handleImageClick = () => {
+    if (isEditing && isOwnProfile) {
+      fileInputRef.current?.click();
+    }
+  };
+
+  const handleImageChange = async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+
+    if (file.size > 2 * 1024 * 1024) {
+      toast.error("File size must be less than 2MB");
+      return;
+    }
+
+    try {
+      setUploading(true);
+      const storageRef = ref(storage, `profiles/${currentUser.uid}`);
+      await uploadBytes(storageRef, file);
+      const downloadURL = await getDownloadURL(storageRef);
+      
+      setEditedData({ ...editedData, photoURL: downloadURL });
+      toast.success("Image uploaded! Don't forget to save changes.");
+    } catch (error) {
+      console.error(error);
+      toast.error("Failed to upload image");
+    } finally {
+      setUploading(false);
+    }
+  };
 
   const handleSave = async () => {
     try {
@@ -125,7 +160,7 @@ const ProfilePage = () => {
            <h2 className="text-2xl font-black text-slate-900 dark:text-white mb-2">User Not Found</h2>
            <p className="text-slate-500 font-bold mb-8">This student hasn't set up their academic profile yet or the ID is incorrect.</p>
            <button onClick={() => navigate('/')} className="w-full px-8 py-4 bg-blue-600 text-white rounded-2xl font-black text-xs uppercase tracking-widest">
-              Back to Dashboard
+             Back to Dashboard
            </button>
         </div>
       </div>
@@ -209,9 +244,37 @@ const ProfilePage = () => {
         <div className="bg-white dark:bg-slate-900 rounded-[48px] shadow-2xl border border-slate-100 dark:border-slate-800 p-8 md:p-12">
           <div className="flex flex-col md:flex-row gap-8 items-start justify-between border-b border-slate-50 dark:border-slate-800/50 pb-12">
             <div className="flex flex-col md:flex-row gap-8 items-center md:items-start w-full">
-              <div className="relative">
-                <div className="w-48 h-48 bg-gradient-to-tr from-blue-600 to-indigo-600 rounded-[56px] flex items-center justify-center text-7xl font-black text-white shadow-2xl ring-8 ring-white dark:ring-slate-900">
-                  {profileData.name?.charAt(0)}
+              
+              <div className="relative group">
+                <input 
+                  type="file" 
+                  ref={fileInputRef} 
+                  onChange={handleImageChange} 
+                  className="hidden" 
+                  accept="image/*"
+                />
+                <div 
+                  onClick={handleImageClick}
+                  className={`w-48 h-48 bg-gradient-to-tr from-blue-600 to-indigo-600 rounded-[56px] flex items-center justify-center text-7xl font-black text-white shadow-2xl ring-8 ring-white dark:ring-slate-900 overflow-hidden ${isEditing && isOwnProfile ? 'cursor-pointer' : ''}`}
+                >
+                  {uploading ? (
+                    <Loader2 className="animate-spin text-white" size={40} />
+                  ) : (isEditing ? editedData.photoURL : profileData.photoURL) ? (
+                    <img 
+                      src={isEditing ? editedData.photoURL : profileData.photoURL} 
+                      className="w-full h-full object-cover" 
+                      alt="Profile"
+                    />
+                  ) : (
+                    profileData.name?.charAt(0)
+                  )}
+                  
+                  {isEditing && isOwnProfile && !uploading && (
+                    <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                      <Camera className="text-white mb-2" size={32} />
+                      <span className="text-[10px] font-black uppercase text-white">Change Photo</span>
+                    </div>
+                  )}
                 </div>
               </div>
 
