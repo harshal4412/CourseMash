@@ -18,7 +18,6 @@ const Dashboard = lazy(() => import('./components/dashboard/Dashboard'));
 const CourseSearch = lazy(() => import('./components/courses/CourseSearch'));
 const MyCourses = lazy(() => import('./components/courses/MyCourses'));
 const TimeTable = lazy(() => import("./components/schedule/TimeTable"));
-const FriendSearch = lazy(() => import('./components/friends/FriendSearch'));
 const ProfilePage = lazy(() => import('./components/profile/ProfilePage'));
 const Settings = lazy(() => import('./components/profile/Settings'));
 
@@ -63,12 +62,6 @@ const AnimatedRoutes = () => {
         <Route path="/my-courses" element={
           <ProtectedRoute>
             <PageWrapper><MyCourses /></PageWrapper>
-          </ProtectedRoute>
-        } />
-
-        <Route path="/friends" element={
-          <ProtectedRoute>
-            <PageWrapper><FriendSearch /></PageWrapper>
           </ProtectedRoute>
         } />
 

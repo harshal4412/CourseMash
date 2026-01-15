@@ -154,23 +154,6 @@ const Dashboard = () => {
                 </button>
               </div>
             </div>
-
-            <div className="bg-gradient-to-br from-indigo-600 to-blue-700 rounded-[40px] p-8 shadow-xl shadow-blue-500/20 text-white relative overflow-hidden group">
-              <div className="absolute -right-4 -bottom-4 opacity-10 group-hover:scale-110 transition-transform duration-700">
-                <Users size={160} />
-              </div>
-              
-              <div className="relative z-10">
-                <h3 className="text-xl font-black mb-2 tracking-tight">Sync with Friends</h3>
-                <p className="text-blue-100 text-xs font-medium mb-8 leading-relaxed">
-                  Compare schedules and find common free slots automatically.
-                </p>
-                <Link to="/friends" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white text-white hover:text-blue-600 backdrop-blur-md px-6 py-3 rounded-2xl text-[10px] font-black uppercase tracking-widest transition-all border border-white/20 hover:border-white">
-                  Open Circle
-                  <ArrowRight size={14} />
-                </Link>
-              </div>
-            </div>
           </motion.div>
         </div>
       </div>

@@ -24,7 +24,6 @@ const Sidebar = ({ isOpen, onClose }) => {
     { icon: Calendar, label: 'My Schedule', path: '/schedule' },
     { icon: Search, label: 'Course Explorer', path: '/explorer' },
     { icon: BookOpen, label: 'My Courses', path: '/my-courses' },
-    { icon: Users, label: 'Friends', path: '/friends' },
     { icon: Settings, label: 'Settings', path: '/settings' },
   ];
 
